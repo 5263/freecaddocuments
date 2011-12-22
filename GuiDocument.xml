@@ -133,5 +133,5 @@
 			</Properties>
 		</ViewProvider>
 	</ViewProviderData>
-	<Camera settings="  OrthographicCamera {   viewportMapping ADJUST_CAMERA   position 84.260155 53.420883 140.2719   orientation 0.29323724 -0.63644522 -0.71340692  0.75118458   nearDistance -53.924767   farDistance 135.8909   aspectRatio 1   focalDistance 47.169907   height 121.13704  } "/>
+	<Camera settings="  OrthographicCamera {   viewportMapping ADJUST_CAMERA   position 123.87827 21.971455 127.23356   orientation 0.74290609 0.30772209 0.59447283  1.2171158   nearDistance -32.183544   farDistance 126.68214   aspectRatio 1   focalDistance 47.169907   height 220.72711  } "/>
 </Document>

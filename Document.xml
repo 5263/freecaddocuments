@@ -17,19 +17,19 @@
 			<String value="Tue Dec 20 21:56:51 2011 "/>
 		</Property>
 		<Property name="FileName" type="App::PropertyString">
-			<String value="D:/a_RepRap/FreeCAD/U100.FCStd"/>
+			<String value="/home/normand/Bureau/tests FreeCAD/U Steel Profile_mod.FCStd"/>
 		</Property>
 		<Property name="Id" type="App::PropertyString">
 			<String value="ca10ff07-51e2-436c-b789-771a4851b265"/>
 		</Property>
 		<Property name="Label" type="App::PropertyString">
-			<String value="U100"/>
+			<String value="U Steel Profile_mod"/>
 		</Property>
 		<Property name="LastModifiedBy" type="App::PropertyString">
 			<String value=""/>
 		</Property>
 		<Property name="LastModifiedDate" type="App::PropertyString">
-			<String value="Thu Dec 22 18:43:19 2011 "/>
+			<String value="Thu Dec 22 19:22:35 2011 "/>
 		</Property>
 	</Properties>
 	<Objects Count="2">
@@ -40,18 +40,17 @@
 		<Object name="Sketch">
 			<Properties Count="8">
 				<Property name="Constraints" type="Sketcher::PropertyConstraintList">
-					<ConstraintList count="46">
+					<ConstraintList count="50">
 						<Constrain Name="" Type="1" Value="0.000000000000" First="0" FirstPos="2" Second="1" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
 						<Constrain Name="" Type="1" Value="0.000000000000" First="1" FirstPos="2" Second="2" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
 						<Constrain Name="" Type="1" Value="0.000000000000" First="3" FirstPos="1" Second="0" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
 						<Constrain Name="" Type="1" Value="0.000000000000" First="4" FirstPos="1" Second="2" SecondPos="2" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
-						<Constrain Name="" Type="9" Value="-0.079830000000" First="7" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="2.200876951218" />
+						<Constrain Name="" Type="9" Value="-0.079830000000" First="7" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="6.552506446838" />
 						<Constrain Name="" Type="8" Value="-6.000000000000" First="6" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="54.394538879395" />
 						<Constrain Name="" Type="7" Value="12.500000000000" First="6" FirstPos="1" Second="0" SecondPos="2" Third="-2000" ThirdPos="0" LabelDistance="13.339980125427" />
 						<Constrain Name="" Type="3" Value="0.000000000000" First="6" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
 						<Constrain Name="" Type="13" Value="0.000000000000" First="6" FirstPos="2" Second="7" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
 						<Constrain Name="" Type="3" Value="0.000000000000" First="1" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
-						<Constrain Name="" Type="8" Value="0.000000000000" First="6" FirstPos="1" Second="0" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="3.451663255692" />
 						<Constrain Name="" Type="2" Value="0.000000000000" First="0" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
 						<Constrain Name="" Type="8" Value="-50.000000000000" First="1" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="6.950796127319" />
 						<Constrain Name="" Type="3" Value="0.000000000000" First="3" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
@@ -68,10 +67,8 @@
 						<Constrain Name="" Type="2" Value="0.000000000000" First="2" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
 						<Constrain Name="" Type="3" Value="0.000000000000" First="4" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
 						<Constrain Name="" Type="1" Value="0.000000000000" First="10" FirstPos="2" Second="5" SecondPos="2" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
-						<Constrain Name="" Type="7" Value="6.000000000000" First="8" FirstPos="3" Second="5" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="3.814685821533" />
 						<Constrain Name="" Type="8" Value="3.000000000000" First="7" FirstPos="1" Second="9" SecondPos="3" Third="-2000" ThirdPos="0" LabelDistance="10.972681045532" />
 						<Constrain Name="" Type="1" Value="0.000000000000" First="11" FirstPos="2" Second="4" SecondPos="2" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
-						<Constrain Name="" Type="9" Value="0.079830000000" First="12" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="23.346599578857" />
 						<Constrain Name="" Type="1" Value="0.000000000000" First="12" FirstPos="1" Second="11" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
 						<Constrain Name="" Type="1" Value="0.000000000000" First="10" FirstPos="1" Second="12" SecondPos="2" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
 						<Constrain Name="" Type="5" Value="0.000000000000" First="10" FirstPos="0" Second="5" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
@@ -86,7 +83,14 @@
 						<Constrain Name="" Type="13" Value="0.000000000000" First="13" FirstPos="1" Second="2" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
 						<Constrain Name="" Type="13" Value="0.000000000000" First="13" FirstPos="2" Second="12" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
 						<Constrain Name="" Type="3" Value="0.000000000000" First="13" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
-						<Constrain Name="" Type="12" Value="0.000000000000" First="13" FirstPos="0" Second="6" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
+						<Constrain Name="" Type="13" Value="0.000000000000" First="6" FirstPos="1" Second="0" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
+						<Constrain Name="" Type="12" Value="0.000000000000" First="6" FirstPos="0" Second="13" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="14" FirstPos="1" Second="8" SecondPos="3" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="14" FirstPos="2" Second="5" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
+						<Constrain Name="" Type="12" Value="0.000000000000" First="14" FirstPos="0" Second="6" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
+						<Constrain Name="" Type="7" Value="84.144704000000" First="2" FirstPos="2" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
+						<Constrain Name="" Type="8" Value="24.205010000000" First="2" FirstPos="2" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
+						<Constrain Name="" Type="12" Value="0.000000000000" First="12" FirstPos="0" Second="7" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
 					</ConstraintList>
 				</Property>
 				<Property name="ExternalConstraints" type="App::PropertyLinkSubList">
@@ -94,62 +98,66 @@
 					</LinkSubList>
 				</Property>
 				<Property name="Geometry" type="Part::PropertyGeometryList">
-					<GeometryList count="14">
+					<GeometryList count="15">
 						<Geometry  type="Part::GeomLineSegment">
 							<Construction value="0"/>
-							<LineSegment StartX="84.053949146986" StartY="77.214938949527" StartZ="0.000000000000" EndX="109.053949146959" EndY="77.214938949527" EndZ="0.000000000000"/>
-						</Geometry>
-						<Geometry  type="Part::GeomLineSegment">
-							<Construction value="0"/>
-							<LineSegment StartX="109.053949146959" StartY="77.214938949527" StartZ="0.000000000000" EndX="109.053949146959" EndY="27.214938949527" EndZ="0.000000000000"/>
+							<LineSegment StartX="84.144704000000" StartY="74.205010000000" StartZ="0.000000000000" EndX="109.144704000000" EndY="74.205010000000" EndZ="0.000000000000"/>
 						</Geometry>
 						<Geometry  type="Part::GeomLineSegment">
 							<Construction value="0"/>
-							<LineSegment StartX="109.053949146959" StartY="27.214938949527" StartZ="0.000000000000" EndX="84.053949146959" EndY="27.214938949527" EndZ="0.000000000000"/>
+							<LineSegment StartX="109.144704000000" StartY="74.205010000000" StartZ="0.000000000000" EndX="109.144704000000" EndY="24.205010000000" EndZ="0.000000000000"/>
 						</Geometry>
 						<Geometry  type="Part::GeomLineSegment">
 							<Construction value="0"/>
-							<LineSegment StartX="84.053949146986" StartY="77.214938949527" StartZ="0.000000000000" EndX="84.053949146986" EndY="74.993385127179" EndZ="0.000000000000"/>
+							<LineSegment StartX="109.144704000000" StartY="24.205010000000" StartZ="0.000000000000" EndX="84.144704000000" EndY="24.205010000000" EndZ="0.000000000000"/>
 						</Geometry>
 						<Geometry  type="Part::GeomLineSegment">
 							<Construction value="0"/>
-							<LineSegment StartX="84.053949146959" StartY="27.214938949527" StartZ="0.000000000000" EndX="84.053949146959" EndY="29.436492771874" EndZ="0.000000000000"/>
+							<LineSegment StartX="84.144704000000" StartY="74.205010000000" StartZ="0.000000000000" EndX="84.144704000000" EndY="71.983443645818" EndZ="0.000000000000"/>
 						</Geometry>
 						<Geometry  type="Part::GeomLineSegment">
 							<Construction value="0"/>
-							<LineSegment StartX="104.053949146959" StartY="65.075770319757" StartZ="0.000000000000" EndX="104.053949146959" EndY="39.354098539851" EndZ="0.000000000000"/>
-						</Geometry>
-						<Geometry  type="Part::GeomLineSegment">
-							<Construction value="1"/>
-							<LineSegment StartX="96.553949146959" StartY="77.214938949527" StartZ="0.000000000000" EndX="96.553949146959" EndY="71.214938949527" EndZ="0.000000000000"/>
+							<LineSegment StartX="84.144704000000" StartY="24.205010000000" StartZ="0.000000000000" EndX="84.144704000000" EndY="26.426576354182" EndZ="0.000000000000"/>
 						</Geometry>
 						<Geometry  type="Part::GeomLineSegment">
 							<Construction value="0"/>
-							<LineSegment StartX="86.823535752118" StartY="71.993372161030" StartZ="0.000000000000" EndX="98.532412372424" EndY="71.056661863035" EndZ="0.000000000000"/>
-						</Geometry>
-						<Geometry  type="Part::GeomArcOfCircle">
-							<Construction value="0"/>
-							<ArcOfCircle CenterX="98.053949146959" CenterY="65.075769543165" CenterZ="0.000000000000" NormalX="0.000000000000" NormalY="0.000000000000" NormalZ="1.000000000000" Radius="6.000000000000" StartAngle="0.000000129432" EndAngle="1.490967696772"/>
-						</Geometry>
-						<Geometry  type="Part::GeomArcOfCircle">
-							<Construction value="0"/>
-							<ArcOfCircle CenterX="87.063533669865" CenterY="74.993372161030" CenterZ="0.000000000000" NormalX="0.000000000000" NormalY="0.000000000000" NormalZ="1.000000000000" Radius="3.009584522906" StartAngle="3.141588345304" EndAngle="4.632559684343"/>
-						</Geometry>
-						<Geometry  type="Part::GeomArcOfCircle">
-							<Construction value="0"/>
-							<ArcOfCircle CenterX="98.053949146959" CenterY="39.354096667898" CenterZ="0.000000000000" NormalX="0.000000000000" NormalY="0.000000000000" NormalZ="1.000000000000" Radius="6.000000000000" StartAngle="4.792218905965" EndAngle="6.283185619172"/>
-						</Geometry>
-						<Geometry  type="Part::GeomArcOfCircle">
-							<Construction value="0"/>
-							<ArcOfCircle CenterX="87.063533669865" CenterY="29.436494050034" CenterZ="0.000000000000" NormalX="0.000000000000" NormalY="0.000000000000" NormalZ="1.000000000000" Radius="3.009584522906" StartAngle="1.650625806448" EndAngle="3.141593078286"/>
-						</Geometry>
-						<Geometry  type="Part::GeomLineSegment">
-							<Construction value="0"/>
-							<LineSegment StartX="86.823535201283" StartY="32.436494005967" StartZ="0.000000000000" EndX="98.532420121015" EndY="33.373204967910" EndZ="0.000000000000"/>
+							<LineSegment StartX="104.144704000000" StartY="62.065840819716" StartZ="0.000000000000" EndX="104.144704000000" EndY="36.344186126820" EndZ="0.000000000000"/>
 						</Geometry>
 						<Geometry  type="Part::GeomLineSegment">
 							<Construction value="1"/>
-							<LineSegment StartX="96.554095246805" StartY="27.214938949527" StartZ="0.000000000000" EndX="96.554095246805" EndY="33.214938949527" EndZ="0.000000000000"/>
+							<LineSegment StartX="96.644704000000" StartY="74.205010000000" StartZ="0.000000000000" EndX="96.644704000000" EndY="68.205010000000" EndZ="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="0"/>
+							<LineSegment StartX="86.914287335947" StartY="68.983443473040" StartZ="0.000000000000" EndX="98.623176868036" EndY="68.046732142108" EndZ="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomArcOfCircle">
+							<Construction value="0"/>
+							<ArcOfCircle CenterX="98.144704000000" CenterY="62.065840593639" CenterZ="0.000000000000" NormalX="0.000000000000" NormalY="0.000000000000" NormalZ="1.000000000000" Radius="6.000000000000" StartAngle="0.000000037680" EndAngle="1.490966084543"/>
+						</Geometry>
+						<Geometry  type="Part::GeomArcOfCircle">
+							<Construction value="0"/>
+							<ArcOfCircle CenterX="87.154288806202" CenterY="71.983443473040" CenterZ="0.000000000000" NormalX="0.000000000000" NormalY="0.000000000000" NormalZ="1.000000000000" Radius="3.009584806202" StartAngle="3.141592596180" EndAngle="4.632558507704"/>
+						</Geometry>
+						<Geometry  type="Part::GeomArcOfCircle">
+							<Construction value="0"/>
+							<ArcOfCircle CenterX="98.144704000000" CenterY="36.344186357591" CenterZ="0.000000000000" NormalX="0.000000000000" NormalY="0.000000000000" NormalZ="1.000000000000" Radius="6.000000000000" StartAngle="4.792219313814" EndAngle="6.283185268718"/>
+						</Geometry>
+						<Geometry  type="Part::GeomArcOfCircle">
+							<Construction value="0"/>
+							<ArcOfCircle CenterX="87.154288806202" CenterY="26.426576641039" CenterZ="0.000000000000" NormalX="0.000000000000" NormalY="0.000000000000" NormalZ="1.000000000000" Radius="3.009584806202" StartAngle="1.650626436537" EndAngle="3.141592748904"/>
+						</Geometry>
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="0"/>
+							<LineSegment StartX="86.914288424761" StartY="29.426576728144" StartZ="0.000000000000" EndX="98.623177413356" EndY="30.363294852748" EndZ="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="1"/>
+							<LineSegment StartX="96.644631550661" StartY="24.205010000000" StartZ="0.000000000000" EndX="96.644631550661" EndY="30.205010000000" EndZ="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="1"/>
+							<LineSegment StartX="98.144704000000" StartY="62.065840593639" StartZ="0.000000000000" EndX="104.144704000000" EndY="62.065840819716" EndZ="0.000000000000"/>
 						</Geometry>
 					</GeometryList>
 				</Property>
