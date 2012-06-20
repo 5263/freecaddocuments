@@ -1,0 +1,636 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://free-cad.sourceforge.net for more information...
+-->
+<Document SchemaVersion="4">
+	<Properties Count="9">
+		<Property name="Comment" type="App::PropertyString">
+			<String value=""/>
+		</Property>
+		<Property name="Company" type="App::PropertyString">
+			<String value=""/>
+		</Property>
+		<Property name="CreatedBy" type="App::PropertyString">
+			<String value=""/>
+		</Property>
+		<Property name="CreationDate" type="App::PropertyString">
+			<String value="Wed Jun 20 17:49:06 2012 "/>
+		</Property>
+		<Property name="FileName" type="App::PropertyString">
+			<String value="/home/user/Documents/cad/housedesigns/the_m_box_blocker.FCStd"/>
+		</Property>
+		<Property name="Id" type="App::PropertyString">
+			<String value="c059a654-1c86-43bb-848f-50f906e37b40"/>
+		</Property>
+		<Property name="Label" type="App::PropertyString">
+			<String value="the_m_box_blocker"/>
+		</Property>
+		<Property name="LastModifiedBy" type="App::PropertyString">
+			<String value=""/>
+		</Property>
+		<Property name="LastModifiedDate" type="App::PropertyString">
+			<String value="Wed Jun 20 21:08:32 2012 "/>
+		</Property>
+	</Properties>
+	<Objects Count="24">
+		<Object type="Part::Box" name="Box" />
+		<Object type="Part::Box" name="Box001" />
+		<Object type="Part::Box" name="Box002" />
+		<Object type="Part::Box" name="Box003" />
+		<Object type="Part::Box" name="Box004" />
+		<Object type="Part::Box" name="Box005" />
+		<Object type="Part::Box" name="Box006" />
+		<Object type="Part::Box" name="Box007" />
+		<Object type="Part::Box" name="Box008" />
+		<Object type="Part::Box" name="Box009" />
+		<Object type="Part::Box" name="Box010" />
+		<Object type="Part::Box" name="Box011" />
+		<Object type="Part::Box" name="Box012" />
+		<Object type="Part::Box" name="Box013" />
+		<Object type="Part::Box" name="Box014" />
+		<Object type="Part::Box" name="Box015" />
+		<Object type="Part::Box" name="Box016" />
+		<Object type="Part::Box" name="Box017" />
+		<Object type="Part::Box" name="Box018" />
+		<Object type="App::MeasureDistance" name="Distance002" />
+		<Object type="Part::Box" name="Box019" />
+		<Object type="Part::Box" name="Box020" />
+		<Object type="App::MeasureDistance" name="Distance" />
+		<Object type="App::MeasureDistance" name="Distance003" />
+	</Objects>
+	<ObjectData Count="24">
+		<Object name="Box">
+			<Properties Count="7">
+				<Property name="Height" type="App::PropertyLength">
+					<Float value="2400.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="lounge_room_volume"/>
+				</Property>
+				<Property name="Length" type="App::PropertyLength">
+					<Float value="4600.000000000000"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="13300.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+				</Property>
+				<Property name="Pos" type="App::PropertyPlacementLink">
+					<Link value=""/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape.brp"/>
+				</Property>
+				<Property name="Width" type="App::PropertyLength">
+					<Float value="5100.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Box001">
+			<Properties Count="7">
+				<Property name="Height" type="App::PropertyLength">
+					<Float value="2400.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="dinning_room_volume"/>
+				</Property>
+				<Property name="Length" type="App::PropertyLength">
+					<Float value="4500.000000000000"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="6300.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+				</Property>
+				<Property name="Pos" type="App::PropertyPlacementLink">
+					<Link value=""/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape1.brp"/>
+				</Property>
+				<Property name="Width" type="App::PropertyLength">
+					<Float value="2700.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Box002">
+			<Properties Count="7">
+				<Property name="Height" type="App::PropertyLength">
+					<Float value="2400.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="Kitchen_volume"/>
+				</Property>
+				<Property name="Length" type="App::PropertyLength">
+					<Float value="3600.000000000000"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="7200.000000000000" Py="3700.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+				</Property>
+				<Property name="Pos" type="App::PropertyPlacementLink">
+					<Link value=""/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape2.brp"/>
+				</Property>
+				<Property name="Width" type="App::PropertyLength">
+					<Float value="2700.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Box003">
+			<Properties Count="7">
+				<Property name="Height" type="App::PropertyLength">
+					<Float value="2400.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="Single_bed_room"/>
+				</Property>
+				<Property name="Length" type="App::PropertyLength">
+					<Float value="3000.000000000000"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="3300.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+				</Property>
+				<Property name="Pos" type="App::PropertyPlacementLink">
+					<Link value=""/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape3.brp"/>
+				</Property>
+				<Property name="Width" type="App::PropertyLength">
+					<Float value="3600.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Box004">
+			<Properties Count="7">
+				<Property name="Height" type="App::PropertyLength">
+					<Float value="2400.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="Single_bed_room001"/>
+				</Property>
+				<Property name="Length" type="App::PropertyLength">
+					<Float value="3600.000000000000"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="3600.000000000000" Py="4600.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+				</Property>
+				<Property name="Pos" type="App::PropertyPlacementLink">
+					<Link value=""/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape4.brp"/>
+				</Property>
+				<Property name="Width" type="App::PropertyLength">
+					<Float value="3000.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Box005">
+			<Properties Count="7">
+				<Property name="Height" type="App::PropertyLength">
+					<Float value="2400.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="Single_bed_room002"/>
+				</Property>
+				<Property name="Length" type="App::PropertyLength">
+					<Float value="3000.000000000000"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="300.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+				</Property>
+				<Property name="Pos" type="App::PropertyPlacementLink">
+					<Link value=""/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape5.brp"/>
+				</Property>
+				<Property name="Width" type="App::PropertyLength">
+					<Float value="3600.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Box006">
+			<Properties Count="7">
+				<Property name="Height" type="App::PropertyLength">
+					<Float value="2400.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="Single_bed_room003"/>
+				</Property>
+				<Property name="Length" type="App::PropertyLength">
+					<Float value="3600.000000000000"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="0.000000000000" Py="4600.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+				</Property>
+				<Property name="Pos" type="App::PropertyPlacementLink">
+					<Link value=""/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape6.brp"/>
+				</Property>
+				<Property name="Width" type="App::PropertyLength">
+					<Float value="3000.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Box007">
+			<Properties Count="7">
+				<Property name="Height" type="App::PropertyLength">
+					<Float value="2400.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="double_bed_room"/>
+				</Property>
+				<Property name="Length" type="App::PropertyLength">
+					<Float value="3600.000000000000"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="-6300.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+				</Property>
+				<Property name="Pos" type="App::PropertyPlacementLink">
+					<Link value=""/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape7.brp"/>
+				</Property>
+				<Property name="Width" type="App::PropertyLength">
+					<Float value="3600.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Box008">
+			<Properties Count="7">
+				<Property name="Height" type="App::PropertyLength">
+					<Float value="2400.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="wood_fire_heater"/>
+				</Property>
+				<Property name="Length" type="App::PropertyLength">
+					<Float value="2500.000000000000"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="10800.000000000000" Py="3700.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+				</Property>
+				<Property name="Pos" type="App::PropertyPlacementLink">
+					<Link value=""/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape8.brp"/>
+				</Property>
+				<Property name="Width" type="App::PropertyLength">
+					<Float value="2500.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Box009">
+			<Properties Count="7">
+				<Property name="Height" type="App::PropertyLength">
+					<Float value="2400.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="entrance_volume"/>
+				</Property>
+				<Property name="Length" type="App::PropertyLength">
+					<Float value="2500.000000000000"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="10800.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+				</Property>
+				<Property name="Pos" type="App::PropertyPlacementLink">
+					<Link value=""/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape9.brp"/>
+				</Property>
+				<Property name="Width" type="App::PropertyLength">
+					<Float value="2700.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Box010">
+			<Properties Count="7">
+				<Property name="Height" type="App::PropertyLength">
+					<Float value="2400.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="Single_bed_room004"/>
+				</Property>
+				<Property name="Length" type="App::PropertyLength">
+					<Float value="3000.000000000000"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="-2700.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+				</Property>
+				<Property name="Pos" type="App::PropertyPlacementLink">
+					<Link value=""/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape10.brp"/>
+				</Property>
+				<Property name="Width" type="App::PropertyLength">
+					<Float value="3600.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Box011">
+			<Properties Count="7">
+				<Property name="Height" type="App::PropertyLength">
+					<Float value="2400.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="toilet"/>
+				</Property>
+				<Property name="Length" type="App::PropertyLength">
+					<Float value="900.000000000000"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="-2700.000000000000" Py="6200.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+				</Property>
+				<Property name="Pos" type="App::PropertyPlacementLink">
+					<Link value=""/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape11.brp"/>
+				</Property>
+				<Property name="Width" type="App::PropertyLength">
+					<Float value="1400.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Box012">
+			<Properties Count="7">
+				<Property name="Height" type="App::PropertyLength">
+					<Float value="2400.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="hand_basin"/>
+				</Property>
+				<Property name="Length" type="App::PropertyLength">
+					<Float value="900.000000000000"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="-2700.000000000000" Py="4600.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+				</Property>
+				<Property name="Pos" type="App::PropertyPlacementLink">
+					<Link value=""/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape12.brp"/>
+				</Property>
+				<Property name="Width" type="App::PropertyLength">
+					<Float value="1600.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Box013">
+			<Properties Count="7">
+				<Property name="Height" type="App::PropertyLength">
+					<Float value="2400.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="bath_room"/>
+				</Property>
+				<Property name="Length" type="App::PropertyLength">
+					<Float value="1800.000000000000"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="-1800.000000000000" Py="5100.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+				</Property>
+				<Property name="Pos" type="App::PropertyPlacementLink">
+					<Link value=""/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape13.brp"/>
+				</Property>
+				<Property name="Width" type="App::PropertyLength">
+					<Float value="2500.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Box014">
+			<Properties Count="7">
+				<Property name="Height" type="App::PropertyLength">
+					<Float value="2400.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="hall_cupboard"/>
+				</Property>
+				<Property name="Length" type="App::PropertyLength">
+					<Float value="1800.000000000000"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="-1800.000000000000" Py="4600.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+				</Property>
+				<Property name="Pos" type="App::PropertyPlacementLink">
+					<Link value=""/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape14.brp"/>
+				</Property>
+				<Property name="Width" type="App::PropertyLength">
+					<Float value="500.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Box015">
+			<Properties Count="7">
+				<Property name="Height" type="App::PropertyLength">
+					<Float value="2400.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="ensuite"/>
+				</Property>
+				<Property name="Length" type="App::PropertyLength">
+					<Float value="3600.000000000000"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="-6300.000000000000" Py="6100.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+				</Property>
+				<Property name="Pos" type="App::PropertyPlacementLink">
+					<Link value=""/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape15.brp"/>
+				</Property>
+				<Property name="Width" type="App::PropertyLength">
+					<Float value="1500.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Box016">
+			<Properties Count="7">
+				<Property name="Height" type="App::PropertyLength">
+					<Float value="2400.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="dressing_room_w_i_w"/>
+				</Property>
+				<Property name="Length" type="App::PropertyLength">
+					<Float value="3600.000000000000"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="-6300.000000000000" Py="3600.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+				</Property>
+				<Property name="Pos" type="App::PropertyPlacementLink">
+					<Link value=""/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape16.brp"/>
+				</Property>
+				<Property name="Width" type="App::PropertyLength">
+					<Float value="2500.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Box017">
+			<Properties Count="7">
+				<Property name="Height" type="App::PropertyLength">
+					<Float value="2400.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="laundry_option1"/>
+				</Property>
+				<Property name="Length" type="App::PropertyLength">
+					<Float value="2200.000000000000"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="13300.000000000000" Py="5100.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+				</Property>
+				<Property name="Pos" type="App::PropertyPlacementLink">
+					<Link value=""/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape17.brp"/>
+				</Property>
+				<Property name="Width" type="App::PropertyLength">
+					<Float value="1700.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Box018">
+			<Properties Count="7">
+				<Property name="Height" type="App::PropertyLength">
+					<Float value="2400.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="laundry_option002"/>
+				</Property>
+				<Property name="Length" type="App::PropertyLength">
+					<Float value="1700.000000000000"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="13300.000000000000" Py="5100.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+				</Property>
+				<Property name="Pos" type="App::PropertyPlacementLink">
+					<Link value=""/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape18.brp"/>
+				</Property>
+				<Property name="Width" type="App::PropertyLength">
+					<Float value="2600.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Distance002">
+			<Properties Count="4">
+				<Property name="Distance" type="App::PropertyDistance">
+					<Float value="1000.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="Distance: 1000.000"/>
+				</Property>
+				<Property name="P1" type="App::PropertyVector">
+					<PropertyVector valueX="10800.000000000000" valueY="3700.000000000000" valueZ="2400.000000000000"/>
+				</Property>
+				<Property name="P2" type="App::PropertyVector">
+					<PropertyVector valueX="10800.000000000000" valueY="2700.000000000000" valueZ="2400.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Box019">
+			<Properties Count="7">
+				<Property name="Height" type="App::PropertyLength">
+					<Float value="2400.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="office"/>
+				</Property>
+				<Property name="Length" type="App::PropertyLength">
+					<Float value="2600.000000000000"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="15300.000000000000" Py="5100.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+				</Property>
+				<Property name="Pos" type="App::PropertyPlacementLink">
+					<Link value=""/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape19.brp"/>
+				</Property>
+				<Property name="Width" type="App::PropertyLength">
+					<Float value="2400.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Box020">
+			<Properties Count="7">
+				<Property name="Height" type="App::PropertyLength">
+					<Float value="2400.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="laundry_option003"/>
+				</Property>
+				<Property name="Length" type="App::PropertyLength">
+					<Float value="2000.000000000000"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="13300.000000000000" Py="5100.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+				</Property>
+				<Property name="Pos" type="App::PropertyPlacementLink">
+					<Link value=""/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape20.brp"/>
+				</Property>
+				<Property name="Width" type="App::PropertyLength">
+					<Float value="2400.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Distance">
+			<Properties Count="4">
+				<Property name="Distance" type="App::PropertyDistance">
+					<Float value="1300.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="Distance: 1300.000"/>
+				</Property>
+				<Property name="P1" type="App::PropertyVector">
+					<PropertyVector valueX="13300.000000000000" valueY="6200.000000000000" valueZ="2400.000000000000"/>
+				</Property>
+				<Property name="P2" type="App::PropertyVector">
+					<PropertyVector valueX="13300.000000000000" valueY="7500.000000000000" valueZ="2400.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Distance003">
+			<Properties Count="4">
+				<Property name="Distance" type="App::PropertyDistance">
+					<Float value="24200.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="Distance: 24200.000"/>
+				</Property>
+				<Property name="P1" type="App::PropertyVector">
+					<PropertyVector valueX="-6300.000000000000" valueY="0.000000000000" valueZ="2400.000000000000"/>
+				</Property>
+				<Property name="P2" type="App::PropertyVector">
+					<PropertyVector valueX="17900.000000000000" valueY="0.000000000000" valueZ="2400.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+	</ObjectData>
+</Document>
