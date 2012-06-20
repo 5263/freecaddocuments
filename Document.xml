@@ -17,22 +17,22 @@
 			<String value="Wed Jun 20 17:49:06 2012 "/>
 		</Property>
 		<Property name="FileName" type="App::PropertyString">
-			<String value="/home/user/Documents/cad/housedesigns/the_m_box_blocker.FCStd"/>
+			<String value="/home/user/Documents/cad/housedesigns/the_m_full_model_blocker.FCStd"/>
 		</Property>
 		<Property name="Id" type="App::PropertyString">
 			<String value="c059a654-1c86-43bb-848f-50f906e37b40"/>
 		</Property>
 		<Property name="Label" type="App::PropertyString">
-			<String value="the_m_box_blocker"/>
+			<String value="the_m_full_model_blocker"/>
 		</Property>
 		<Property name="LastModifiedBy" type="App::PropertyString">
 			<String value=""/>
 		</Property>
 		<Property name="LastModifiedDate" type="App::PropertyString">
-			<String value="Wed Jun 20 21:08:32 2012 "/>
+			<String value="Wed Jun 20 22:21:14 2012 "/>
 		</Property>
 	</Properties>
-	<Objects Count="24">
+	<Objects Count="26">
 		<Object type="Part::Box" name="Box" />
 		<Object type="Part::Box" name="Box001" />
 		<Object type="Part::Box" name="Box002" />
@@ -52,13 +52,15 @@
 		<Object type="Part::Box" name="Box016" />
 		<Object type="Part::Box" name="Box017" />
 		<Object type="Part::Box" name="Box018" />
-		<Object type="App::MeasureDistance" name="Distance002" />
 		<Object type="Part::Box" name="Box019" />
 		<Object type="Part::Box" name="Box020" />
-		<Object type="App::MeasureDistance" name="Distance" />
-		<Object type="App::MeasureDistance" name="Distance003" />
+		<Object type="App::DocumentObjectGroup" name="Group" />
+		<Object type="Sketcher::SketchObject" name="Sketch" />
+		<Object type="Part::FeaturePython" name="Wall" />
+		<Object type="Sketcher::SketchObject" name="Sketch001" />
+		<Object type="Part::FeaturePython" name="Wall001" />
 	</Objects>
-	<ObjectData Count="24">
+	<ObjectData Count="26">
 		<Object name="Box">
 			<Properties Count="7">
 				<Property name="Height" type="App::PropertyLength">
@@ -71,7 +73,7 @@
 					<Float value="4600.000000000000"/>
 				</Property>
 				<Property name="Placement" type="App::PropertyPlacement">
-					<PropertyPlacement Px="13300.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+					<PropertyPlacement Px="20200.000000000000" Py="100.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
 				</Property>
 				<Property name="Pos" type="App::PropertyPlacementLink">
 					<Link value=""/>
@@ -96,7 +98,7 @@
 					<Float value="4500.000000000000"/>
 				</Property>
 				<Property name="Placement" type="App::PropertyPlacement">
-					<PropertyPlacement Px="6300.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+					<PropertyPlacement Px="13200.000000000000" Py="100.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
 				</Property>
 				<Property name="Pos" type="App::PropertyPlacementLink">
 					<Link value=""/>
@@ -121,7 +123,7 @@
 					<Float value="3600.000000000000"/>
 				</Property>
 				<Property name="Placement" type="App::PropertyPlacement">
-					<PropertyPlacement Px="7200.000000000000" Py="3700.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+					<PropertyPlacement Px="14100.000000000000" Py="3800.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
 				</Property>
 				<Property name="Pos" type="App::PropertyPlacementLink">
 					<Link value=""/>
@@ -146,7 +148,7 @@
 					<Float value="3000.000000000000"/>
 				</Property>
 				<Property name="Placement" type="App::PropertyPlacement">
-					<PropertyPlacement Px="3300.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+					<PropertyPlacement Px="10150.000000000000" Py="250.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
 				</Property>
 				<Property name="Pos" type="App::PropertyPlacementLink">
 					<Link value=""/>
@@ -171,7 +173,7 @@
 					<Float value="3600.000000000000"/>
 				</Property>
 				<Property name="Placement" type="App::PropertyPlacement">
-					<PropertyPlacement Px="3600.000000000000" Py="4600.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+					<PropertyPlacement Px="10550.000000000000" Py="4850.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
 				</Property>
 				<Property name="Pos" type="App::PropertyPlacementLink">
 					<Link value=""/>
@@ -196,7 +198,7 @@
 					<Float value="3000.000000000000"/>
 				</Property>
 				<Property name="Placement" type="App::PropertyPlacement">
-					<PropertyPlacement Px="300.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+					<PropertyPlacement Px="7050.000000000000" Py="250.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
 				</Property>
 				<Property name="Pos" type="App::PropertyPlacementLink">
 					<Link value=""/>
@@ -221,7 +223,7 @@
 					<Float value="3600.000000000000"/>
 				</Property>
 				<Property name="Placement" type="App::PropertyPlacement">
-					<PropertyPlacement Px="0.000000000000" Py="4600.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+					<PropertyPlacement Px="6850.000000000000" Py="4850.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
 				</Property>
 				<Property name="Pos" type="App::PropertyPlacementLink">
 					<Link value=""/>
@@ -246,7 +248,7 @@
 					<Float value="3600.000000000000"/>
 				</Property>
 				<Property name="Placement" type="App::PropertyPlacement">
-					<PropertyPlacement Px="-6300.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+					<PropertyPlacement Px="260.000000000000" Py="250.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
 				</Property>
 				<Property name="Pos" type="App::PropertyPlacementLink">
 					<Link value=""/>
@@ -271,7 +273,7 @@
 					<Float value="2500.000000000000"/>
 				</Property>
 				<Property name="Placement" type="App::PropertyPlacement">
-					<PropertyPlacement Px="10800.000000000000" Py="3700.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+					<PropertyPlacement Px="17700.000000000000" Py="3800.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
 				</Property>
 				<Property name="Pos" type="App::PropertyPlacementLink">
 					<Link value=""/>
@@ -296,7 +298,7 @@
 					<Float value="2500.000000000000"/>
 				</Property>
 				<Property name="Placement" type="App::PropertyPlacement">
-					<PropertyPlacement Px="10800.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+					<PropertyPlacement Px="17700.000000000000" Py="100.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
 				</Property>
 				<Property name="Pos" type="App::PropertyPlacementLink">
 					<Link value=""/>
@@ -321,7 +323,7 @@
 					<Float value="3000.000000000000"/>
 				</Property>
 				<Property name="Placement" type="App::PropertyPlacement">
-					<PropertyPlacement Px="-2700.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+					<PropertyPlacement Px="3950.000000000000" Py="250.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
 				</Property>
 				<Property name="Pos" type="App::PropertyPlacementLink">
 					<Link value=""/>
@@ -346,7 +348,7 @@
 					<Float value="900.000000000000"/>
 				</Property>
 				<Property name="Placement" type="App::PropertyPlacement">
-					<PropertyPlacement Px="-2700.000000000000" Py="6200.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+					<PropertyPlacement Px="3950.000000000000" Py="6450.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
 				</Property>
 				<Property name="Pos" type="App::PropertyPlacementLink">
 					<Link value=""/>
@@ -371,7 +373,7 @@
 					<Float value="900.000000000000"/>
 				</Property>
 				<Property name="Placement" type="App::PropertyPlacement">
-					<PropertyPlacement Px="-2700.000000000000" Py="4600.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+					<PropertyPlacement Px="3950.000000000000" Py="4850.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
 				</Property>
 				<Property name="Pos" type="App::PropertyPlacementLink">
 					<Link value=""/>
@@ -396,7 +398,7 @@
 					<Float value="1800.000000000000"/>
 				</Property>
 				<Property name="Placement" type="App::PropertyPlacement">
-					<PropertyPlacement Px="-1800.000000000000" Py="5100.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+					<PropertyPlacement Px="4950.000000000000" Py="5350.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
 				</Property>
 				<Property name="Pos" type="App::PropertyPlacementLink">
 					<Link value=""/>
@@ -421,7 +423,7 @@
 					<Float value="1800.000000000000"/>
 				</Property>
 				<Property name="Placement" type="App::PropertyPlacement">
-					<PropertyPlacement Px="-1800.000000000000" Py="4600.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+					<PropertyPlacement Px="4950.000000000000" Py="4850.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
 				</Property>
 				<Property name="Pos" type="App::PropertyPlacementLink">
 					<Link value=""/>
@@ -446,7 +448,7 @@
 					<Float value="3600.000000000000"/>
 				</Property>
 				<Property name="Placement" type="App::PropertyPlacement">
-					<PropertyPlacement Px="-6300.000000000000" Py="6100.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+					<PropertyPlacement Px="250.000000000000" Py="6350.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
 				</Property>
 				<Property name="Pos" type="App::PropertyPlacementLink">
 					<Link value=""/>
@@ -471,7 +473,7 @@
 					<Float value="3600.000000000000"/>
 				</Property>
 				<Property name="Placement" type="App::PropertyPlacement">
-					<PropertyPlacement Px="-6300.000000000000" Py="3600.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+					<PropertyPlacement Px="250.000000000000" Py="3850.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
 				</Property>
 				<Property name="Pos" type="App::PropertyPlacementLink">
 					<Link value=""/>
@@ -496,7 +498,7 @@
 					<Float value="2200.000000000000"/>
 				</Property>
 				<Property name="Placement" type="App::PropertyPlacement">
-					<PropertyPlacement Px="13300.000000000000" Py="5100.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+					<PropertyPlacement Px="20200.000000000000" Py="5200.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
 				</Property>
 				<Property name="Pos" type="App::PropertyPlacementLink">
 					<Link value=""/>
@@ -521,7 +523,7 @@
 					<Float value="1700.000000000000"/>
 				</Property>
 				<Property name="Placement" type="App::PropertyPlacement">
-					<PropertyPlacement Px="13300.000000000000" Py="5100.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+					<PropertyPlacement Px="20200.000000000000" Py="5200.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
 				</Property>
 				<Property name="Pos" type="App::PropertyPlacementLink">
 					<Link value=""/>
@@ -531,22 +533,6 @@
 				</Property>
 				<Property name="Width" type="App::PropertyLength">
 					<Float value="2600.000000000000"/>
-				</Property>
-			</Properties>
-		</Object>
-		<Object name="Distance002">
-			<Properties Count="4">
-				<Property name="Distance" type="App::PropertyDistance">
-					<Float value="1000.000000000000"/>
-				</Property>
-				<Property name="Label" type="App::PropertyString">
-					<String value="Distance: 1000.000"/>
-				</Property>
-				<Property name="P1" type="App::PropertyVector">
-					<PropertyVector valueX="10800.000000000000" valueY="3700.000000000000" valueZ="2400.000000000000"/>
-				</Property>
-				<Property name="P2" type="App::PropertyVector">
-					<PropertyVector valueX="10800.000000000000" valueY="2700.000000000000" valueZ="2400.000000000000"/>
 				</Property>
 			</Properties>
 		</Object>
@@ -562,7 +548,7 @@
 					<Float value="2600.000000000000"/>
 				</Property>
 				<Property name="Placement" type="App::PropertyPlacement">
-					<PropertyPlacement Px="15300.000000000000" Py="5100.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+					<PropertyPlacement Px="22200.000000000000" Py="5200.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
 				</Property>
 				<Property name="Pos" type="App::PropertyPlacementLink">
 					<Link value=""/>
@@ -587,7 +573,7 @@
 					<Float value="2000.000000000000"/>
 				</Property>
 				<Property name="Placement" type="App::PropertyPlacement">
-					<PropertyPlacement Px="13300.000000000000" Py="5100.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+					<PropertyPlacement Px="20200.000000000000" Py="5200.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
 				</Property>
 				<Property name="Pos" type="App::PropertyPlacementLink">
 					<Link value=""/>
@@ -600,35 +586,251 @@
 				</Property>
 			</Properties>
 		</Object>
-		<Object name="Distance">
-			<Properties Count="4">
-				<Property name="Distance" type="App::PropertyDistance">
-					<Float value="1300.000000000000"/>
+		<Object name="Group">
+			<Properties Count="2">
+				<Property name="Group" type="App::PropertyLinkList">
+					<LinkList count="21">
+						<Link value="Box"/>
+						<Link value="Box001"/>
+						<Link value="Box002"/>
+						<Link value="Box003"/>
+						<Link value="Box004"/>
+						<Link value="Box005"/>
+						<Link value="Box006"/>
+						<Link value="Box007"/>
+						<Link value="Box008"/>
+						<Link value="Box009"/>
+						<Link value="Box010"/>
+						<Link value="Box011"/>
+						<Link value="Box012"/>
+						<Link value="Box013"/>
+						<Link value="Box014"/>
+						<Link value="Box015"/>
+						<Link value="Box016"/>
+						<Link value="Box017"/>
+						<Link value="Box018"/>
+						<Link value="Box019"/>
+						<Link value="Box020"/>
+					</LinkList>
 				</Property>
 				<Property name="Label" type="App::PropertyString">
-					<String value="Distance: 1300.000"/>
-				</Property>
-				<Property name="P1" type="App::PropertyVector">
-					<PropertyVector valueX="13300.000000000000" valueY="6200.000000000000" valueZ="2400.000000000000"/>
-				</Property>
-				<Property name="P2" type="App::PropertyVector">
-					<PropertyVector valueX="13300.000000000000" valueY="7500.000000000000" valueZ="2400.000000000000"/>
+					<String value="blocks_of_volume_requirements"/>
 				</Property>
 			</Properties>
 		</Object>
-		<Object name="Distance003">
-			<Properties Count="4">
-				<Property name="Distance" type="App::PropertyDistance">
-					<Float value="24200.000000000000"/>
+		<Object name="Sketch">
+			<Properties Count="8">
+				<Property name="Constraints" type="Sketcher::PropertyConstraintList">
+					<ConstraintList count="12">
+						<Constrain Name="" Type="1" Value="0.000000000000" First="0" FirstPos="2" Second="1" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="1" FirstPos="2" Second="2" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="2" FirstPos="2" Second="3" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="3" FirstPos="2" Second="0" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
+						<Constrain Name="" Type="2" Value="0.000000000000" First="0" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
+						<Constrain Name="" Type="2" Value="0.000000000000" First="2" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
+						<Constrain Name="" Type="3" Value="0.000000000000" First="1" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
+						<Constrain Name="" Type="3" Value="0.000000000000" First="3" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
+						<Constrain Name="" Type="7" Value="0.000000000000" First="2" FirstPos="2" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
+						<Constrain Name="" Type="8" Value="0.000000000000" First="2" FirstPos="2" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
+						<Constrain Name="" Type="8" Value="8100.000000000000" First="3" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="2452.447753906250" />
+						<Constrain Name="" Type="7" Value="-25500.000000000000" First="2" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="2452.447753906250" />
+					</ConstraintList>
+				</Property>
+				<Property name="ExternalGeometry" type="App::PropertyLinkSubList">
+					<LinkSubList count="0">
+					</LinkSubList>
+				</Property>
+				<Property name="Geometry" type="Part::PropertyGeometryList">
+					<GeometryList count="4">
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="0"/>
+							<LineSegment StartX="0.000000000000" StartY="8100.000000000000" StartZ="0.000000000000" EndX="25500.000000000000" EndY="8100.000000000000" EndZ="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="0"/>
+							<LineSegment StartX="25500.000000000000" StartY="8100.000000000000" StartZ="0.000000000000" EndX="25500.000000000000" EndY="0.000000000000" EndZ="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="0"/>
+							<LineSegment StartX="25500.000000000000" StartY="0.000000000000" StartZ="0.000000000000" EndX="0.000000000000" EndY="0.000000000000" EndZ="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="0"/>
+							<LineSegment StartX="0.000000000000" StartY="0.000000000000" StartZ="0.000000000000" EndX="0.000000000000" EndY="8100.000000000000" EndZ="0.000000000000"/>
+						</Geometry>
+					</GeometryList>
 				</Property>
 				<Property name="Label" type="App::PropertyString">
-					<String value="Distance: 24200.000"/>
+					<String value="Sketch"/>
 				</Property>
-				<Property name="P1" type="App::PropertyVector">
-					<PropertyVector valueX="-6300.000000000000" valueY="0.000000000000" valueZ="2400.000000000000"/>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="0.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
 				</Property>
-				<Property name="P2" type="App::PropertyVector">
-					<PropertyVector valueX="17900.000000000000" valueY="0.000000000000" valueZ="2400.000000000000"/>
+				<Property name="Pos" type="App::PropertyPlacementLink">
+					<Link value=""/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape21.brp"/>
+				</Property>
+				<Property name="Support" type="App::PropertyLinkSub">
+					<LinkSub value="" count="0">
+					</LinkSub>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Wall">
+			<Properties Count="13">
+				<Property name="Additions" type="App::PropertyLinkList" group="Base" doc="Other shapes that are appended to this object" attr="0" ro="0" hide="0">
+					<LinkList count="0">
+					</LinkList>
+				</Property>
+				<Property name="Align" type="App::PropertyEnumeration" group="Base" doc="The alignment of this wall on its base object, if applicable" attr="0" ro="0" hide="0">
+					<Integer value="0" CustomEnum="true"/>
+					<CustomEnumList count="3">
+						<Enum value="Left"/>
+						<Enum value="Right"/>
+						<Enum value="Center"/>
+					</CustomEnumList>
+				</Property>
+				<Property name="Base" type="App::PropertyLink" group="Base" doc="The base object this component is built upon" attr="0" ro="0" hide="0">
+					<Link value="Sketch"/>
+				</Property>
+				<Property name="ForceWire" type="App::PropertyBool" group="Base" doc="If True, if this wall is based on a face, it will use its border wire as trace, and disconsider the face." attr="0" ro="0" hide="0">
+					<Bool value="false"/>
+				</Property>
+				<Property name="Height" type="App::PropertyLength" group="Base" doc="The height of this wall. Keep 0 for automatic. Not used if this wall is based on a solid" attr="0" ro="0" hide="0">
+					<Float value="2400.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="Wall"/>
+				</Property>
+				<Property name="Normal" type="App::PropertyVector" group="Base" doc="The normal extrusion direction of this object (keep (0,0,0) for automatic normal)" attr="0" ro="0" hide="0">
+					<PropertyVector valueX="0.000000000000" valueY="0.000000000000" valueZ="0.000000000000"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="0.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+				</Property>
+				<Property name="Pos" type="App::PropertyPlacementLink">
+					<Link value=""/>
+				</Property>
+				<Property name="Proxy" type="App::PropertyPythonObject">
+					<Python value="KGlBcmNoV2FsbApfV2FsbApwMQooZHAyClMnVHlwZScKcDMKUydXYWxsJwpwNApzUydTdWJ2b2x1bWUnCnA1Ck5zYi4=" encoded="yes"/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape22.brp"/>
+				</Property>
+				<Property name="Subtractions" type="App::PropertyLinkList" group="Base" doc="Other shapes that are subtracted from this object" attr="0" ro="0" hide="0">
+					<LinkList count="0">
+					</LinkList>
+				</Property>
+				<Property name="Width" type="App::PropertyLength" group="Base" doc="The width of this wall. Not used if this wall is based on a face" attr="0" ro="0" hide="0">
+					<Float value="250.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Sketch001">
+			<Properties Count="8">
+				<Property name="Constraints" type="Sketcher::PropertyConstraintList">
+					<ConstraintList count="12">
+						<Constrain Name="" Type="3" Value="0.000000000000" First="0" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
+						<Constrain Name="" Type="7" Value="3900.000000000000" First="0" FirstPos="1" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
+						<Constrain Name="" Type="8" Value="250.000000000000" First="0" FirstPos="1" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
+						<Constrain Name="" Type="8" Value="7600.000000000000" First="0" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="2779.904296875000" />
+						<Constrain Name="" Type="13" Value="0.000000000000" First="1" FirstPos="1" Second="0" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
+						<Constrain Name="" Type="2" Value="0.000000000000" First="1" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
+						<Constrain Name="" Type="7" Value="250.000000000000" First="1" FirstPos="2" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="813.827087402344" />
+						<Constrain Name="" Type="13" Value="0.000000000000" First="2" FirstPos="1" Second="0" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
+						<Constrain Name="" Type="2" Value="0.000000000000" First="2" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
+						<Constrain Name="" Type="7" Value="250.000000000000" First="2" FirstPos="2" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="813.827087402344" />
+						<Constrain Name="" Type="8" Value="3850.000000000000" First="1" FirstPos="2" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="553.946655273438" />
+						<Constrain Name="" Type="8" Value="6350.000000000000" First="2" FirstPos="2" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="1031.627685546875" />
+					</ConstraintList>
+				</Property>
+				<Property name="ExternalGeometry" type="App::PropertyLinkSubList">
+					<LinkSubList count="0">
+					</LinkSubList>
+				</Property>
+				<Property name="Geometry" type="Part::PropertyGeometryList">
+					<GeometryList count="3">
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="0"/>
+							<LineSegment StartX="3900.000000000000" StartY="250.000000000000" StartZ="0.000000000000" EndX="3900.000000000000" EndY="7850.000000000000" EndZ="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="0"/>
+							<LineSegment StartX="3900.000000000000" StartY="3850.000000000000" StartZ="0.000000000000" EndX="250.000000000000" EndY="3850.000000000000" EndZ="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="0"/>
+							<LineSegment StartX="3900.000000000000" StartY="6350.000000000000" StartZ="0.000000000000" EndX="250.000000000000" EndY="6350.000000000000" EndZ="0.000000000000"/>
+						</Geometry>
+					</GeometryList>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="Sketch001"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="0.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+				</Property>
+				<Property name="Pos" type="App::PropertyPlacementLink">
+					<Link value=""/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape23.brp"/>
+				</Property>
+				<Property name="Support" type="App::PropertyLinkSub">
+					<LinkSub value="" count="0">
+					</LinkSub>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Wall001">
+			<Properties Count="13">
+				<Property name="Additions" type="App::PropertyLinkList" group="Base" doc="Other shapes that are appended to this object" attr="0" ro="0" hide="0">
+					<LinkList count="0">
+					</LinkList>
+				</Property>
+				<Property name="Align" type="App::PropertyEnumeration" group="Base" doc="The alignment of this wall on its base object, if applicable" attr="0" ro="0" hide="0">
+					<Integer value="2" CustomEnum="true"/>
+					<CustomEnumList count="3">
+						<Enum value="Left"/>
+						<Enum value="Right"/>
+						<Enum value="Center"/>
+					</CustomEnumList>
+				</Property>
+				<Property name="Base" type="App::PropertyLink" group="Base" doc="The base object this component is built upon" attr="0" ro="0" hide="0">
+					<Link value="Sketch001"/>
+				</Property>
+				<Property name="ForceWire" type="App::PropertyBool" group="Base" doc="If True, if this wall is based on a face, it will use its border wire as trace, and disconsider the face." attr="0" ro="0" hide="0">
+					<Bool value="false"/>
+				</Property>
+				<Property name="Height" type="App::PropertyLength" group="Base" doc="The height of this wall. Keep 0 for automatic. Not used if this wall is based on a solid" attr="0" ro="0" hide="0">
+					<Float value="2400.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="Wall001"/>
+				</Property>
+				<Property name="Normal" type="App::PropertyVector" group="Base" doc="The normal extrusion direction of this object (keep (0,0,0) for automatic normal)" attr="0" ro="0" hide="0">
+					<PropertyVector valueX="0.000000000000" valueY="0.000000000000" valueZ="0.000000000000"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="0.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+				</Property>
+				<Property name="Pos" type="App::PropertyPlacementLink">
+					<Link value=""/>
+				</Property>
+				<Property name="Proxy" type="App::PropertyPythonObject">
+					<Python value="KGlBcmNoV2FsbApfV2FsbApwMQooZHAyClMnVHlwZScKcDMKUydXYWxsJwpwNApzUydTdWJ2b2x1bWUnCnA1Ck5zYi4=" encoded="yes"/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape24.brp"/>
+				</Property>
+				<Property name="Subtractions" type="App::PropertyLinkList" group="Base" doc="Other shapes that are subtracted from this object" attr="0" ro="0" hide="0">
+					<LinkList count="0">
+					</LinkList>
+				</Property>
+				<Property name="Width" type="App::PropertyLength" group="Base" doc="The width of this wall. Not used if this wall is based on a face" attr="0" ro="0" hide="0">
+					<Float value="100.000000000000"/>
 				</Property>
 			</Properties>
 		</Object>
