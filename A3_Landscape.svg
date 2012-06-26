@@ -1504,11 +1504,11 @@
        fill="rgb(0, 0, 0)"
        id="path672" />
   </g>
-<g id="Top"
-   transform="rotate(0,25,40.5) translate(25,40.5) scale(0.02,0.02)"
+<g id="Top_exterior_wall"
+   transform="rotate(0,25,40.5) translate(25,40.5) scale(0.01,0.01)"
   >
 <g   stroke="rgb(0, 0, 0)"
-   stroke-width="17.5"
+   stroke-width="35"
    stroke-linecap="butt"
    stroke-linejoin="miter"
    fill="none"
@@ -1527,11 +1527,11 @@
 
 
 
-<g id="Top001"
-   transform="rotate(0,25,40.5) translate(25,40.5) scale(0.02,0.02)"
+<g id="Top001_interior_wall"
+   transform="rotate(0,25,40.5) translate(25,40.5) scale(0.01,0.01)"
   >
 <g   stroke="rgb(0, 0, 0)"
-   stroke-width="17.5"
+   stroke-width="35"
    stroke-linecap="butt"
    stroke-linejoin="miter"
    fill="none"
@@ -1556,10 +1556,10 @@
 
 
 <g id="Top002_interior_wall"
-   transform="rotate(0,25,166.5) translate(25,166.5) scale(0.02,0.02)"
+   transform="rotate(0,25,104) translate(25,104) scale(0.01,0.01)"
   >
 <g   stroke="rgb(0, 0, 0)"
-   stroke-width="17.5"
+   stroke-width="35"
    stroke-linecap="butt"
    stroke-linejoin="miter"
    fill="none"
@@ -1573,11 +1573,11 @@
 
 
 
-<g id="Top003"
-   transform="rotate(0,25,115.5) translate(25,115.5) scale(0.02,0.02)"
+<g id="Top003_interior_wall"
+   transform="rotate(0,25,77.5) translate(25,77.5) scale(0.01,0.01)"
   >
 <g   stroke="rgb(0, 0, 0)"
-   stroke-width="17.5"
+   stroke-width="35"
    stroke-linecap="butt"
    stroke-linejoin="miter"
    fill="none"
@@ -1605,11 +1605,11 @@
 
 
 
-<g id="Top004"
-   transform="rotate(0,25,-50.5) translate(25,-50.5) scale(0.02,0.02)"
+<g id="Top004_interior_wall"
+   transform="rotate(0,25,-5) translate(25,-5) scale(0.01,0.01)"
   >
 <g   stroke="rgb(0, 0, 0)"
-   stroke-width="17.5"
+   stroke-width="35"
    stroke-linecap="butt"
    stroke-linejoin="miter"
    fill="none"
@@ -1646,10 +1646,10 @@
 
 
 <g id="Top005_porch"
-   transform="rotate(0,25,40.75) translate(25,40.75) scale(0.02,0.02)"
+   transform="rotate(0,25,40.75) translate(25,40.75) scale(0.01,0.01)"
   >
 <g   stroke="rgb(0, 0, 0)"
-   stroke-width="17.5"
+   stroke-width="35"
    stroke-linecap="butt"
    stroke-linejoin="miter"
    fill="none"
@@ -1667,11 +1667,11 @@
 
 
 
-<g id="Top"
-   transform="rotate(0,25,115) translate(25,115) scale(0.02,0.02)"
+<g id="Top_queen_bed"
+   transform="rotate(0,25,78) translate(25,78) scale(0.01,0.01)"
   >
 <g   stroke="rgb(0, 0, 0)"
-   stroke-width="17.5"
+   stroke-width="35"
    stroke-linecap="butt"
    stroke-linejoin="miter"
    fill="none"
@@ -1697,10 +1697,10 @@
 
 
 <g id="Top_ensuite_toilet"
-   transform="rotate(0,25,-82.5) translate(25,-82.5) scale(0.02,0.02)"
+   transform="rotate(0,25,-21) translate(25,-21) scale(0.01,0.01)"
   >
 <g   stroke="rgb(0, 0, 0)"
-   stroke-width="17.5"
+   stroke-width="35"
    stroke-linecap="butt"
    stroke-linejoin="miter"
    fill="none"
@@ -1709,7 +1709,7 @@
 <path id= "2" d=" M 420 6950 L 502.293 6950 " />
 </g>
 <g   stroke="rgb(0, 0, 0)"
-   stroke-width="17.5"
+   stroke-width="35"
    stroke-linecap="butt"
    stroke-linejoin="miter"
    fill="none"
@@ -1738,10 +1738,10 @@
 
 
 <g id="Top_ensuite_shower"
-   transform="rotate(0,25,-83) translate(25,-83) scale(0.02,0.02)"
+   transform="rotate(0,25,-21) translate(25,-21) scale(0.01,0.01)"
   >
 <g   stroke="rgb(0, 0, 0)"
-   stroke-width="17.5"
+   stroke-width="35"
    stroke-linecap="butt"
    stroke-linejoin="miter"
    fill="none"
@@ -1772,10 +1772,10 @@
 
 
 <g id="View_main_toilet"
-   transform="rotate(0,25,-83) translate(25,-83) scale(0.02,0.02)"
+   transform="rotate(0,25,-21) translate(25,-21) scale(0.01,0.01)"
   >
 <g   stroke="rgb(0, 0, 0)"
-   stroke-width="17.5"
+   stroke-width="35"
    stroke-linecap="butt"
    stroke-linejoin="miter"
    fill="none"
@@ -1784,7 +1784,7 @@
 <path id= "2" d=" M 3620 6950 L 3702.29 6950 " />
 </g>
 <g   stroke="rgb(0, 0, 0)"
-   stroke-width="17.5"
+   stroke-width="35"
    stroke-linecap="butt"
    stroke-linejoin="miter"
    fill="none"
@@ -1813,10 +1813,10 @@
 
 
 <g id="View001_main_bath"
-   transform="rotate(0,25,-89) translate(25,-89) scale(0.02,0.02)"
+   transform="rotate(0,25,-24) translate(25,-24) scale(0.01,0.01)"
   >
 <g   stroke="rgb(0, 0, 0)"
-   stroke-width="17.5"
+   stroke-width="35"
    stroke-linecap="butt"
    stroke-linejoin="miter"
    fill="none"
@@ -1847,10 +1847,10 @@
 
 
 <g id="View002_laundry_toilet"
-   transform="rotate(0,25,-75) translate(25,-75) scale(0.02,0.02)"
+   transform="rotate(0,25,-17) translate(25,-17) scale(0.01,0.01)"
   >
 <g   stroke="rgb(0, 0, 0)"
-   stroke-width="17.5"
+   stroke-width="35"
    stroke-linecap="butt"
    stroke-linejoin="miter"
    fill="none"
@@ -1859,7 +1859,7 @@
 <path id= "2" d=" M 7625 6220 L 7625 6302.29 " />
 </g>
 <g   stroke="rgb(0, 0, 0)"
-   stroke-width="17.5"
+   stroke-width="35"
    stroke-linecap="butt"
    stroke-linejoin="miter"
    fill="none"
@@ -1889,10 +1889,10 @@
 
 
 <g id="View003_laundry_shower"
-   transform="rotate(0,25,-18.5) translate(25,-18.5) scale(0.02,0.02)"
+   transform="rotate(0,25,11) translate(25,11) scale(0.01,0.01)"
   >
 <g   stroke="rgb(0, 0, 0)"
-   stroke-width="17.5"
+   stroke-width="35"
    stroke-linecap="butt"
    stroke-linejoin="miter"
    fill="none"
@@ -1923,10 +1923,10 @@
 
 
 <g id="View004_single_extra_long_bed"
-   transform="rotate(0,25,142) translate(25,142) scale(0.02,0.02)"
+   transform="rotate(0,25,91.5) translate(25,91.5) scale(0.01,0.01)"
   >
 <g   stroke="rgb(0, 0, 0)"
-   stroke-width="17.5"
+   stroke-width="35"
    stroke-linecap="butt"
    stroke-linejoin="miter"
    fill="none"
@@ -1951,10 +1951,10 @@
 
 
 <g id="View005_single_extra_long_bed"
-   transform="rotate(0,25,142) translate(25,142) scale(0.02,0.02)"
+   transform="rotate(0,25,91.5) translate(25,91.5) scale(0.01,0.01)"
   >
 <g   stroke="rgb(0, 0, 0)"
-   stroke-width="17.5"
+   stroke-width="35"
    stroke-linecap="butt"
    stroke-linejoin="miter"
    fill="none"
@@ -1980,10 +1980,10 @@
 
 
 <g id="View006_single_extra_long_bed"
-   transform="rotate(0,25,142) translate(25,142) scale(0.02,0.02)"
+   transform="rotate(0,25,91.5) translate(25,91.5) scale(0.01,0.01)"
   >
 <g   stroke="rgb(0, 0, 0)"
-   stroke-width="17.5"
+   stroke-width="35"
    stroke-linecap="butt"
    stroke-linejoin="miter"
    fill="none"
@@ -2010,10 +2010,10 @@
 
 
 <g id="View007_single_extra_long_bed"
-   transform="rotate(0,25,142) translate(25,142) scale(0.02,0.02)"
+   transform="rotate(0,25,91.5) translate(25,91.5) scale(0.01,0.01)"
   >
 <g   stroke="rgb(0, 0, 0)"
-   stroke-width="17.5"
+   stroke-width="35"
    stroke-linecap="butt"
    stroke-linejoin="miter"
    fill="none"
@@ -2028,21 +2028,22 @@
 <path id= "8" d=" M 11770 280 L 11770 250 " />
 <path id= "9" d=" M 10850 2330 L 11770 2330 " />
 <path id= "10" d=" M 10850 280 L 11770 280 " />
-<path id= "11" d=" M 10850 250 L 11770 250 " />
-<path id= "12" d=" M 10950 2320 L 11670 2320 " />
-<path d="M11670 2320 A100 100 0 0 0 11770 2220" /><path d="M10950 2320 A100 100 0 0 1 10850 2220" /><path id= "15" d=" M 11770 2220 L 11770 390 " />
-<path id= "16" d=" M 10850 2220 L 10850 390 " />
-<path d="M11770 390 A100 100 0 0 0 11670 290" /><path d="M10950 290 A100 100 0 0 0 10850 390" /><path id= "19" d=" M 10950 290 L 11670 290 " />
+<path id= "11" d=" M 10850 280 L 11770 280 " />
+<path id= "12" d=" M 10850 250 L 11770 250 " />
+<path id= "13" d=" M 10950 2320 L 11670 2320 " />
+<path d="M11670 2320 A100 100 0 0 0 11770 2220" /><path d="M10950 2320 A100 100 0 0 1 10850 2220" /><path id= "16" d=" M 11770 2220 L 11770 390 " />
+<path id= "17" d=" M 10850 2220 L 10850 390 " />
+<path d="M11770 390 A100 100 0 0 0 11670 290" /><path d="M10950 290 A100 100 0 0 0 10850 390" /><path id= "20" d=" M 10950 290 L 11670 290 " />
 </g>
 </g>
 
 
 
 <g id="View008_wood_fire_heater_system"
-   transform="rotate(0,25,80) translate(25,80) scale(0.02,0.02)"
+   transform="rotate(0,25,60) translate(25,60) scale(0.01,0.01)"
   >
 <g   stroke="rgb(0, 0, 0)"
-   stroke-width="17.5"
+   stroke-width="35"
    stroke-linecap="butt"
    stroke-linejoin="miter"
    fill="none"
@@ -2065,10 +2066,10 @@
 
 
 <g id="View009_wood_fire_heater_flue_assembly"
-   transform="rotate(0,25,80) translate(25,80) scale(0.02,0.02)"
+   transform="rotate(0,25,55) translate(25,55) scale(0.01,0.01)"
   >
 <g   stroke="rgb(0, 0, 0)"
-   stroke-width="17.5"
+   stroke-width="35"
    stroke-linecap="butt"
    stroke-linejoin="miter"
    fill="none"
@@ -2076,6 +2077,15 @@
 <circle cx ="13700" cy ="3200" r ="250" /><circle cx ="13700" cy ="3200" r ="10" /></g>
 </g>
 
+
+
+<g id="ViewDimension" transform="rotate(0.0,25.0,120.0) translate(25.0,120.0) scale(0.00999999977648,-0.00999999977648)"><g id="Dimension"><path d="M 0.0 9205.26325959 L 0.0 9800.0 L 18500.0 9800.0 L 18500.0 9205.26325959" fill="none" stroke="#000000" stroke-width="35.0000001863 px" style="stroke-width:35.0000001863;stroke-miterlimit:4;stroke-dasharray:none" freecad:basepoint1="0.0 9205.26325959" freecad:basepoint2="18500.0 9205.26325959" freecad:dimpoint="0.0 9800.0"/>
+<circle cx="0.0" cy="9800.0" r="600.000013411" fill="#000000" stroke="none" style="stroke-miterlimit:4;stroke-dasharray:none" freecad:skip="1"/>
+<circle cx="18500.0" cy="9800.0" r="600.000013411" fill="#000000" stroke="none" style="stroke-miterlimit:4;stroke-dasharray:none" freecad:skip="1"/>
+<text id="Dimension" fill="#000000" font-size="600.000013411" style="text-anchor:middle;text-align:center;font-family:Arial" transform="rotate(-0.0,9250.0,9918.94734808) translate(9250.0,9918.94734808) scale(1,-1) " freecad:skip="1">
+18500.00</text>
+</g>
+</g>
 
 
   <g
