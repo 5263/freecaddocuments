@@ -17,22 +17,22 @@
 			<String value="Wed Jun 20 17:49:06 2012 "/>
 		</Property>
 		<Property name="FileName" type="App::PropertyString">
-			<String value="/home/user/Documents/cad/housedesigns/the_VS_full_model_blocker.FCStd"/>
+			<String value="/home/user/Documents/cad/housedesigns/the_VS_full_model_blocker_with_drawings.FCStd"/>
 		</Property>
 		<Property name="Id" type="App::PropertyString">
 			<String value="c059a654-1c86-43bb-848f-50f906e37b40"/>
 		</Property>
 		<Property name="Label" type="App::PropertyString">
-			<String value="the_VS_full_model_blocker"/>
+			<String value="the_VS_full_model_blocker_with_drawings"/>
 		</Property>
 		<Property name="LastModifiedBy" type="App::PropertyString">
 			<String value=""/>
 		</Property>
 		<Property name="LastModifiedDate" type="App::PropertyString">
-			<String value="Mon Jun 25 23:13:20 2012 "/>
+			<String value="Tue Jun 26 01:58:06 2012 "/>
 		</Property>
 	</Properties>
-	<Objects Count="176">
+	<Objects Count="196">
 		<Object type="Part::Box" name="Box" />
 		<Object type="Part::Box" name="Box001" />
 		<Object type="Part::Box" name="Box002" />
@@ -209,8 +209,28 @@
 		<Object type="Part::FeaturePython" name="Array" />
 		<Object type="App::DocumentObjectGroup" name="Group002010" />
 		<Object type="App::DocumentObjectGroup" name="Group002011" />
+		<Object type="Drawing::FeaturePage" name="Page" />
+		<Object type="Drawing::FeatureViewPart" name="Ortho" />
+		<Object type="Drawing::FeatureViewPart" name="Ortho001" />
+		<Object type="Drawing::FeatureViewPart" name="Ortho002" />
+		<Object type="Drawing::FeatureViewPart" name="Ortho003" />
+		<Object type="Drawing::FeatureViewPart" name="Ortho004" />
+		<Object type="Drawing::FeatureViewPart" name="Ortho005" />
+		<Object type="Drawing::FeatureViewPart" name="Ortho006" />
+		<Object type="Drawing::FeatureViewPart" name="Ortho007" />
+		<Object type="Drawing::FeatureViewPart" name="Ortho008" />
+		<Object type="Drawing::FeatureViewPart" name="View" />
+		<Object type="Drawing::FeatureViewPart" name="View001" />
+		<Object type="Drawing::FeatureViewPart" name="View002" />
+		<Object type="Drawing::FeatureViewPart" name="View003" />
+		<Object type="Drawing::FeatureViewPart" name="View004" />
+		<Object type="Drawing::FeatureViewPart" name="View005" />
+		<Object type="Drawing::FeatureViewPart" name="View006" />
+		<Object type="Drawing::FeatureViewPart" name="View007" />
+		<Object type="Drawing::FeatureViewPart" name="View008" />
+		<Object type="Drawing::FeatureViewPart" name="View009" />
 	</Objects>
-	<ObjectData Count="176">
+	<ObjectData Count="196">
 		<Object name="Box">
 			<Properties Count="7">
 				<Property name="Height" type="App::PropertyLength">
@@ -1080,9 +1100,9 @@
 				<Property name="Constraints" type="Sketcher::PropertyConstraintList">
 					<ConstraintList count="4">
 						<Constrain Name="" Type="3" Value="0.000000000000" First="0" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
-						<Constrain Name="" Type="7" Value="14350.000000000000" First="0" FirstPos="1" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
+						<Constrain Name="" Type="7" Value="14550.000000000000" First="0" FirstPos="1" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
 						<Constrain Name="" Type="8" Value="250.000000000000" First="0" FirstPos="1" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" />
-						<Constrain Name="" Type="8" Value="1000.000000000000" First="0" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="1955.760742187500" />
+						<Constrain Name="" Type="8" Value="900.000000000000" First="0" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="1955.760742187500" />
 					</ConstraintList>
 				</Property>
 				<Property name="ExternalGeometry" type="App::PropertyLinkSubList">
@@ -1093,7 +1113,7 @@
 					<GeometryList count="1">
 						<Geometry  type="Part::GeomLineSegment">
 							<Construction value="0"/>
-							<LineSegment StartX="14350.000000000000" StartY="250.000000000000" StartZ="0.000000000000" EndX="14350.000000000000" EndY="1250.000000000000" EndZ="0.000000000000"/>
+							<LineSegment StartX="14550.000000000000" StartY="250.000000000000" StartZ="0.000000000000" EndX="14550.000000000000" EndY="1150.000000000000" EndZ="0.000000000000"/>
 						</Geometry>
 					</GeometryList>
 				</Property>
@@ -6564,7 +6584,7 @@
 					<String value="Australian_standard_Single_Extra_Long_Mattress_and_bed001"/>
 				</Property>
 				<Property name="Placement" type="App::PropertyPlacement">
-					<PropertyPlacement Px="10750.000000000000" Py="250.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.707106781187" Q3="0.707106781187"/>
+					<PropertyPlacement Px="10850.000000000000" Py="250.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.707106781187" Q3="0.707106781187"/>
 				</Property>
 				<Property name="Pos" type="App::PropertyPlacementLink">
 					<Link value=""/>
@@ -7190,6 +7210,759 @@
 				</Property>
 				<Property name="Label" type="App::PropertyString">
 					<String value="porch and outside items"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Page">
+			<Properties Count="5">
+				<Property name="EditableTexts" type="App::PropertyStringList">
+					<StringList count="10">
+						<String value="AUTHOR NAME"/>
+						<String value="CREATION DATE"/>
+						<String value="SUPERVISOR NAME"/>
+						<String value="CHECK DATE"/>
+						<String value="SCALE"/>
+						<String value="WEIGHT"/>
+						<String value="NUMBER"/>
+						<String value="SHEET"/>
+						<String value="TITLE"/>
+						<String value="SUBTITLE"/>
+					</StringList>
+				</Property>
+				<Property name="Group" type="App::PropertyLinkList">
+					<LinkList count="19">
+						<Link value="Ortho"/>
+						<Link value="Ortho001"/>
+						<Link value="Ortho002"/>
+						<Link value="Ortho003"/>
+						<Link value="Ortho004"/>
+						<Link value="Ortho005"/>
+						<Link value="Ortho006"/>
+						<Link value="Ortho007"/>
+						<Link value="Ortho008"/>
+						<Link value="View"/>
+						<Link value="View001"/>
+						<Link value="View002"/>
+						<Link value="View003"/>
+						<Link value="View004"/>
+						<Link value="View005"/>
+						<Link value="View006"/>
+						<Link value="View007"/>
+						<Link value="View008"/>
+						<Link value="View009"/>
+					</LinkList>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="Page"/>
+				</Property>
+				<Property name="PageResult" type="App::PropertyFileIncluded">
+					<FileIncluded file="A3_Landscape.svg"/>
+				</Property>
+				<Property name="Template" type="App::PropertyFile">
+					<String value="A3_Landscape.svg"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Ortho">
+			<Properties Count="11">
+				<Property name="Direction" type="App::PropertyVector">
+					<PropertyVector valueX="0.000000000000" valueY="0.000000000000" valueZ="1.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="Top_exterior_wall"/>
+				</Property>
+				<Property name="LineWidth" type="App::PropertyFloat">
+					<Float value="0.349999994040"/>
+				</Property>
+				<Property name="Rotation" type="App::PropertyFloat">
+					<Float value="0.000000000000"/>
+				</Property>
+				<Property name="Scale" type="App::PropertyFloat">
+					<Float value="0.019999999553"/>
+				</Property>
+				<Property name="ShowHiddenLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="ShowSmoothLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="Source" type="App::PropertyLink">
+					<Link value="Wall"/>
+				</Property>
+				<Property name="ViewResult" type="App::PropertyString">
+					<String value="&lt;g id=&quot;Top&quot;    transform=&quot;rotate(0,25,40.5) translate(25,40.5) scale(0.02,0.02)&quot;   &gt; &lt;g   stroke=&quot;rgb(0, 0, 0)&quot;    stroke-width=&quot;17.5&quot;    stroke-linecap=&quot;butt&quot;    stroke-linejoin=&quot;miter&quot;    fill=&quot;none&quot;   &gt; &lt;path id= &quot;1&quot; d=&quot; M 18500 0 L 18500 7800 &quot; /&gt; &lt;path id= &quot;2&quot; d=&quot; M 0 0 L 18500 0 &quot; /&gt; &lt;path id= &quot;3&quot; d=&quot; M 18500 7800 L 0 7800 &quot; /&gt; &lt;path id= &quot;4&quot; d=&quot; M 0 7800 L 0 0 &quot; /&gt; &lt;path id= &quot;5&quot; d=&quot; M 250 250 L 18250 250 &quot; /&gt; &lt;path id= &quot;6&quot; d=&quot; M 18250 250 L 18250 7550 &quot; /&gt; &lt;path id= &quot;7&quot; d=&quot; M 18250 7550 L 250 7550 &quot; /&gt; &lt;path id= &quot;8&quot; d=&quot; M 250 7550 L 250 250 &quot; /&gt; &lt;path id= &quot;9&quot; d=&quot; M 250 3300 L 250 2100 &quot; /&gt; &lt;/g&gt; &lt;/g&gt; "/>
+				</Property>
+				<Property name="X" type="App::PropertyFloat">
+					<Float value="25.000000000000"/>
+				</Property>
+				<Property name="Y" type="App::PropertyFloat">
+					<Float value="40.500000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Ortho001">
+			<Properties Count="11">
+				<Property name="Direction" type="App::PropertyVector">
+					<PropertyVector valueX="0.000000000000" valueY="0.000000000000" valueZ="1.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="Top001_interior_wall"/>
+				</Property>
+				<Property name="LineWidth" type="App::PropertyFloat">
+					<Float value="0.349999994040"/>
+				</Property>
+				<Property name="Rotation" type="App::PropertyFloat">
+					<Float value="0.000000000000"/>
+				</Property>
+				<Property name="Scale" type="App::PropertyFloat">
+					<Float value="0.019999999553"/>
+				</Property>
+				<Property name="ShowHiddenLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="ShowSmoothLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="Source" type="App::PropertyLink">
+					<Link value="Wall001"/>
+				</Property>
+				<Property name="ViewResult" type="App::PropertyString">
+					<String value="&lt;g id=&quot;Top001&quot;    transform=&quot;rotate(0,25,40.5) translate(25,40.5) scale(0.02,0.02)&quot;   &gt; &lt;g   stroke=&quot;rgb(0, 0, 0)&quot;    stroke-width=&quot;17.5&quot;    stroke-linecap=&quot;butt&quot;    stroke-linejoin=&quot;miter&quot;    fill=&quot;none&quot;   &gt; &lt;path id= &quot;1&quot; d=&quot; M 3350 1400 L 250 1400 &quot; /&gt; &lt;path id= &quot;2&quot; d=&quot; M 250 1400 L 250 1500 &quot; /&gt; &lt;path id= &quot;3&quot; d=&quot; M 3850 1500 L 250 1500 &quot; /&gt; &lt;path id= &quot;4&quot; d=&quot; M 3850 3900 L 3850 1500 &quot; /&gt; &lt;path id= &quot;5&quot; d=&quot; M 3950 7550 L 3850 7550 &quot; /&gt; &lt;path id= &quot;6&quot; d=&quot; M 3950 7550 L 3950 1400 &quot; /&gt; &lt;path id= &quot;7&quot; d=&quot; M 3850 7550 L 3850 4000 &quot; /&gt; &lt;path id= &quot;8&quot; d=&quot; M 3950 1400 L 3450 1400 &quot; /&gt; &lt;path id= &quot;9&quot; d=&quot; M 3850 4000 L 250 4000 &quot; /&gt; &lt;path id= &quot;10&quot; d=&quot; M 3450 1400 L 3450 250 &quot; /&gt; &lt;path id= &quot;11&quot; d=&quot; M 250 3900 L 250 4000 &quot; /&gt; &lt;path id= &quot;12&quot; d=&quot; M 3350 1400 L 3350 250 &quot; /&gt; &lt;path id= &quot;13&quot; d=&quot; M 3450 250 L 3350 250 &quot; /&gt; &lt;path id= &quot;14&quot; d=&quot; M 3850 3900 L 250 3900 &quot; /&gt; &lt;/g&gt; &lt;/g&gt; "/>
+				</Property>
+				<Property name="X" type="App::PropertyFloat">
+					<Float value="25.000000000000"/>
+				</Property>
+				<Property name="Y" type="App::PropertyFloat">
+					<Float value="40.500000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Ortho002">
+			<Properties Count="11">
+				<Property name="Direction" type="App::PropertyVector">
+					<PropertyVector valueX="0.000000000000" valueY="0.000000000000" valueZ="1.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="Top002_interior_wall"/>
+				</Property>
+				<Property name="LineWidth" type="App::PropertyFloat">
+					<Float value="0.349999994040"/>
+				</Property>
+				<Property name="Rotation" type="App::PropertyFloat">
+					<Float value="0.000000000000"/>
+				</Property>
+				<Property name="Scale" type="App::PropertyFloat">
+					<Float value="0.019999999553"/>
+				</Property>
+				<Property name="ShowHiddenLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="ShowSmoothLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="Source" type="App::PropertyLink">
+					<Link value="Wall002"/>
+				</Property>
+				<Property name="ViewResult" type="App::PropertyString">
+					<String value="&lt;g id=&quot;Top002_interior_wall&quot;    transform=&quot;rotate(0,25,166.5) translate(25,166.5) scale(0.02,0.02)&quot;   &gt; &lt;g   stroke=&quot;rgb(0, 0, 0)&quot;    stroke-width=&quot;17.5&quot;    stroke-linecap=&quot;butt&quot;    stroke-linejoin=&quot;miter&quot;    fill=&quot;none&quot;   &gt; &lt;path id= &quot;1&quot; d=&quot; M 14600 1150 L 14600 250 &quot; /&gt; &lt;path id= &quot;2&quot; d=&quot; M 14600 1150 L 14500 1150 &quot; /&gt; &lt;path id= &quot;3&quot; d=&quot; M 14500 1150 L 14500 250 &quot; /&gt; &lt;path id= &quot;4&quot; d=&quot; M 14600 250 L 14500 250 &quot; /&gt; &lt;/g&gt; &lt;/g&gt; "/>
+				</Property>
+				<Property name="X" type="App::PropertyFloat">
+					<Float value="25.000000000000"/>
+				</Property>
+				<Property name="Y" type="App::PropertyFloat">
+					<Float value="166.500000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Ortho003">
+			<Properties Count="11">
+				<Property name="Direction" type="App::PropertyVector">
+					<PropertyVector valueX="0.000000000000" valueY="0.000000000000" valueZ="1.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="Top003_interior_wall"/>
+				</Property>
+				<Property name="LineWidth" type="App::PropertyFloat">
+					<Float value="0.349999994040"/>
+				</Property>
+				<Property name="Rotation" type="App::PropertyFloat">
+					<Float value="0.000000000000"/>
+				</Property>
+				<Property name="Scale" type="App::PropertyFloat">
+					<Float value="0.019999999553"/>
+				</Property>
+				<Property name="ShowHiddenLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="ShowSmoothLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="Source" type="App::PropertyLink">
+					<Link value="Wall003"/>
+				</Property>
+				<Property name="ViewResult" type="App::PropertyString">
+					<String value="&lt;g id=&quot;Top003&quot;    transform=&quot;rotate(0,25,115.5) translate(25,115.5) scale(0.02,0.02)&quot;   &gt; &lt;g   stroke=&quot;rgb(0, 0, 0)&quot;    stroke-width=&quot;17.5&quot;    stroke-linecap=&quot;butt&quot;    stroke-linejoin=&quot;miter&quot;    fill=&quot;none&quot;   &gt; &lt;path id= &quot;1&quot; d=&quot; M 13150 3800 L 13150 250 &quot; /&gt; &lt;path id= &quot;2&quot; d=&quot; M 13150 3800 L 13050 3800 &quot; /&gt; &lt;path id= &quot;3&quot; d=&quot; M 13150 250 L 3950 250 &quot; /&gt; &lt;path id= &quot;4&quot; d=&quot; M 13050 3800 L 13050 350 &quot; /&gt; &lt;path id= &quot;5&quot; d=&quot; M 3950 250 L 3950 350 &quot; /&gt; &lt;path id= &quot;6&quot; d=&quot; M 13050 350 L 10850 350 &quot; /&gt; &lt;path id= &quot;7&quot; d=&quot; M 6150 350 L 3950 350 &quot; /&gt; &lt;path id= &quot;8&quot; d=&quot; M 8450 350 L 6250 350 &quot; /&gt; &lt;path id= &quot;9&quot; d=&quot; M 10750 350 L 8550 350 &quot; /&gt; &lt;path id= &quot;10&quot; d=&quot; M 10850 3800 L 10850 350 &quot; /&gt; &lt;path id= &quot;11&quot; d=&quot; M 6150 3800 L 6150 350 &quot; /&gt; &lt;path id= &quot;12&quot; d=&quot; M 6250 3800 L 6250 350 &quot; /&gt; &lt;path id= &quot;13&quot; d=&quot; M 8450 3800 L 8450 350 &quot; /&gt; &lt;path id= &quot;14&quot; d=&quot; M 8550 3800 L 8550 350 &quot; /&gt; &lt;path id= &quot;15&quot; d=&quot; M 10750 3800 L 10750 350 &quot; /&gt; &lt;path id= &quot;16&quot; d=&quot; M 10850 3800 L 10750 3800 &quot; /&gt; &lt;path id= &quot;17&quot; d=&quot; M 6250 3800 L 6150 3800 &quot; /&gt; &lt;path id= &quot;18&quot; d=&quot; M 8550 3800 L 8450 3800 &quot; /&gt; &lt;/g&gt; &lt;/g&gt; "/>
+				</Property>
+				<Property name="X" type="App::PropertyFloat">
+					<Float value="25.000000000000"/>
+				</Property>
+				<Property name="Y" type="App::PropertyFloat">
+					<Float value="115.500000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Ortho004">
+			<Properties Count="11">
+				<Property name="Direction" type="App::PropertyVector">
+					<PropertyVector valueX="0.000000000000" valueY="0.000000000000" valueZ="1.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="Top004_interior_wall"/>
+				</Property>
+				<Property name="LineWidth" type="App::PropertyFloat">
+					<Float value="0.349999994040"/>
+				</Property>
+				<Property name="Rotation" type="App::PropertyFloat">
+					<Float value="0.000000000000"/>
+				</Property>
+				<Property name="Scale" type="App::PropertyFloat">
+					<Float value="0.019999999553"/>
+				</Property>
+				<Property name="ShowHiddenLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="ShowSmoothLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="Source" type="App::PropertyLink">
+					<Link value="Wall004"/>
+				</Property>
+				<Property name="ViewResult" type="App::PropertyString">
+					<String value="&lt;g id=&quot;Top004&quot;    transform=&quot;rotate(0,25,-50.5) translate(25,-50.5) scale(0.02,0.02)&quot;   &gt; &lt;g   stroke=&quot;rgb(0, 0, 0)&quot;    stroke-width=&quot;17.5&quot;    stroke-linecap=&quot;butt&quot;    stroke-linejoin=&quot;miter&quot;    fill=&quot;none&quot;   &gt; &lt;path id= &quot;1&quot; d=&quot; M 5150 7450 L 6950 7450 &quot; /&gt; &lt;path id= &quot;2&quot; d=&quot; M 5150 4800 L 5150 7450 &quot; /&gt; &lt;path id= &quot;3&quot; d=&quot; M 5150 4800 L 5050 4800 &quot; /&gt; &lt;path id= &quot;4&quot; d=&quot; M 5050 4800 L 5050 6050 &quot; /&gt; &lt;path id= &quot;5&quot; d=&quot; M 13300 7550 L 10050 7550 &quot; /&gt; &lt;path id= &quot;6&quot; d=&quot; M 13300 7550 L 13300 7450 &quot; /&gt; &lt;path id= &quot;7&quot; d=&quot; M 10050 7550 L 10050 7050 &quot; /&gt; &lt;path id= &quot;8&quot; d=&quot; M 13300 7450 L 10150 7450 &quot; /&gt; &lt;path id= &quot;9&quot; d=&quot; M 10050 7050 L 8250 7050 &quot; /&gt; &lt;path id= &quot;10&quot; d=&quot; M 10150 7450 L 10150 4800 &quot; /&gt; &lt;path id= &quot;11&quot; d=&quot; M 10050 6950 L 10050 4800 &quot; /&gt; &lt;path id= &quot;12&quot; d=&quot; M 10050 4800 L 10150 4800 &quot; /&gt; &lt;path id= &quot;13&quot; d=&quot; M 8250 7550 L 8250 7050 &quot; /&gt; &lt;path id= &quot;14&quot; d=&quot; M 10050 6950 L 8250 6950 &quot; /&gt; &lt;path id= &quot;15&quot; d=&quot; M 5050 7550 L 8250 7550 &quot; /&gt; &lt;path id= &quot;16&quot; d=&quot; M 8250 6950 L 8250 4800 &quot; /&gt; &lt;path id= &quot;17&quot; d=&quot; M 5050 6150 L 5050 7550 &quot; /&gt; &lt;path id= &quot;18&quot; d=&quot; M 8150 4800 L 8250 4800 &quot; /&gt; &lt;path id= &quot;19&quot; d=&quot; M 8150 7450 L 8150 4800 &quot; /&gt; &lt;path id= &quot;20&quot; d=&quot; M 7050 7450 L 8150 7450 &quot; /&gt; &lt;path id= &quot;21&quot; d=&quot; M 5050 6050 L 3950 6050 &quot; /&gt; &lt;path id= &quot;22&quot; d=&quot; M 5050 6150 L 3950 6150 &quot; /&gt; &lt;path id= &quot;23&quot; d=&quot; M 7050 7450 L 7050 4800 &quot; /&gt; &lt;path id= &quot;24&quot; d=&quot; M 6950 7450 L 6950 4800 &quot; /&gt; &lt;path id= &quot;25&quot; d=&quot; M 3950 6050 L 3950 6150 &quot; /&gt; &lt;path id= &quot;26&quot; d=&quot; M 7050 4800 L 6950 4800 &quot; /&gt; &lt;/g&gt; &lt;/g&gt; "/>
+				</Property>
+				<Property name="X" type="App::PropertyFloat">
+					<Float value="25.000000000000"/>
+				</Property>
+				<Property name="Y" type="App::PropertyFloat">
+					<Float value="-50.500000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Ortho005">
+			<Properties Count="11">
+				<Property name="Direction" type="App::PropertyVector">
+					<PropertyVector valueX="0.000000000000" valueY="0.000000000000" valueZ="1.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="Top005_porch"/>
+				</Property>
+				<Property name="LineWidth" type="App::PropertyFloat">
+					<Float value="0.349999994040"/>
+				</Property>
+				<Property name="Rotation" type="App::PropertyFloat">
+					<Float value="0.000000000000"/>
+				</Property>
+				<Property name="Scale" type="App::PropertyFloat">
+					<Float value="0.019999999553"/>
+				</Property>
+				<Property name="ShowHiddenLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="ShowSmoothLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="Source" type="App::PropertyLink">
+					<Link value="Array"/>
+				</Property>
+				<Property name="ViewResult" type="App::PropertyString">
+					<String value="&lt;g id=&quot;Top005_porch&quot;    transform=&quot;rotate(0,25,40.75) translate(25,40.75) scale(0.02,0.02)&quot;   &gt; &lt;g   stroke=&quot;rgb(0, 0, 0)&quot;    stroke-width=&quot;17.5&quot;    stroke-linecap=&quot;butt&quot;    stroke-linejoin=&quot;miter&quot;    fill=&quot;none&quot;   &gt; &lt;path id= &quot;1&quot; d=&quot; M 0 7800 L 18500 7800 &quot; /&gt; &lt;path id= &quot;2&quot; d=&quot; M 18500 7800 L 18500 9050 &quot; /&gt; &lt;path id= &quot;3&quot; d=&quot; M 18500 9050 L 0 9050 &quot; /&gt; &lt;path id= &quot;4&quot; d=&quot; M 0 9050 L 0 7800 &quot; /&gt; &lt;path id= &quot;5&quot; d=&quot; M 0 -1250 L 18500 -1250 &quot; /&gt; &lt;path id= &quot;6&quot; d=&quot; M 18500 -1250 L 18500 0 &quot; /&gt; &lt;path id= &quot;7&quot; d=&quot; M 18500 0 L 0 0 &quot; /&gt; &lt;path id= &quot;8&quot; d=&quot; M 0 0 L 0 -1250 &quot; /&gt; &lt;/g&gt; &lt;/g&gt; "/>
+				</Property>
+				<Property name="X" type="App::PropertyFloat">
+					<Float value="25.000000000000"/>
+				</Property>
+				<Property name="Y" type="App::PropertyFloat">
+					<Float value="40.750000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Ortho006">
+			<Properties Count="11">
+				<Property name="Direction" type="App::PropertyVector">
+					<PropertyVector valueX="0.000000000000" valueY="0.000000000000" valueZ="1.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="Top_queen_bed"/>
+				</Property>
+				<Property name="LineWidth" type="App::PropertyFloat">
+					<Float value="0.349999994040"/>
+				</Property>
+				<Property name="Rotation" type="App::PropertyFloat">
+					<Float value="0.000000000000"/>
+				</Property>
+				<Property name="Scale" type="App::PropertyFloat">
+					<Float value="0.019999999553"/>
+				</Property>
+				<Property name="ShowHiddenLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="ShowSmoothLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="Source" type="App::PropertyLink">
+					<Link value="Fusion001003003"/>
+				</Property>
+				<Property name="ViewResult" type="App::PropertyString">
+					<String value="&lt;g id=&quot;Top&quot;    transform=&quot;rotate(0,25,115) translate(25,115) scale(0.02,0.02)&quot;   &gt; &lt;g   stroke=&quot;rgb(0, 0, 0)&quot;    stroke-width=&quot;17.5&quot;    stroke-linecap=&quot;butt&quot;    stroke-linejoin=&quot;miter&quot;    fill=&quot;none&quot;   &gt; &lt;path id= &quot;1&quot; d=&quot; M 360 1320 L 360 2650 &quot; /&gt; &lt;path d=&quot;M360 2650 A100 100 0 0 0 460 2750&quot; /&gt;&lt;path d=&quot;M360 1320 A100 100 0 0 1 460 1220&quot; /&gt;&lt;path id= &quot;4&quot; d=&quot; M 460 2750 L 2290 2750 &quot; /&gt; &lt;path id= &quot;5&quot; d=&quot; M 460 1220 L 2290 1220 &quot; /&gt; &lt;path d=&quot;M2290 2750 A100 100 0 0 0 2390 2650&quot; /&gt;&lt;path d=&quot;M2390 1320 A100 100 0 0 0 2290 1220&quot; /&gt;&lt;path id= &quot;8&quot; d=&quot; M 2390 1320 L 2390 2650 &quot; /&gt; &lt;path id= &quot;9&quot; d=&quot; M 250 1220 L 250 2750 &quot; /&gt; &lt;path id= &quot;10&quot; d=&quot; M 350 1220 L 350 2750 &quot; /&gt; &lt;path id= &quot;11&quot; d=&quot; M 250 1220 L 350 1220 &quot; /&gt; &lt;path id= &quot;12&quot; d=&quot; M 250 2750 L 350 2750 &quot; /&gt; &lt;path id= &quot;13&quot; d=&quot; M 350 1220 L 2400 1220 &quot; /&gt; &lt;path id= &quot;14&quot; d=&quot; M 2400 1220 L 2430 1220 &quot; /&gt; &lt;path id= &quot;15&quot; d=&quot; M 350 2750 L 2400 2750 &quot; /&gt; &lt;path id= &quot;16&quot; d=&quot; M 2400 2750 L 2430 2750 &quot; /&gt; &lt;path id= &quot;17&quot; d=&quot; M 350 1220 L 350 2750 &quot; /&gt; &lt;path id= &quot;18&quot; d=&quot; M 2400 1220 L 2400 2750 &quot; /&gt; &lt;path id= &quot;19&quot; d=&quot; M 2430 1220 L 2430 2750 &quot; /&gt; &lt;/g&gt; &lt;/g&gt; "/>
+				</Property>
+				<Property name="X" type="App::PropertyFloat">
+					<Float value="25.000000000000"/>
+				</Property>
+				<Property name="Y" type="App::PropertyFloat">
+					<Float value="115.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Ortho007">
+			<Properties Count="11">
+				<Property name="Direction" type="App::PropertyVector">
+					<PropertyVector valueX="0.000000000000" valueY="0.000000000000" valueZ="1.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="Top_ensuite_toilet"/>
+				</Property>
+				<Property name="LineWidth" type="App::PropertyFloat">
+					<Float value="0.349999994040"/>
+				</Property>
+				<Property name="Rotation" type="App::PropertyFloat">
+					<Float value="0.000000000000"/>
+				</Property>
+				<Property name="Scale" type="App::PropertyFloat">
+					<Float value="0.019999999553"/>
+				</Property>
+				<Property name="ShowHiddenLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="ShowSmoothLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="Source" type="App::PropertyLink">
+					<Link value="Fusion001002"/>
+				</Property>
+				<Property name="ViewResult" type="App::PropertyString">
+					<String value="&lt;g id=&quot;Top_ensuite_toilet&quot;    transform=&quot;rotate(0,25,-82.5) translate(25,-82.5) scale(0.02,0.02)&quot;   &gt; &lt;g   stroke=&quot;rgb(0, 0, 0)&quot;    stroke-width=&quot;17.5&quot;    stroke-linecap=&quot;butt&quot;    stroke-linejoin=&quot;miter&quot;    fill=&quot;none&quot;   &gt; &lt;path id= &quot;1&quot; d=&quot; M 420 7000 L 502.293 7000 &quot; /&gt; &lt;path id= &quot;2&quot; d=&quot; M 420 6950 L 502.293 6950 &quot; /&gt; &lt;/g&gt; &lt;g   stroke=&quot;rgb(0, 0, 0)&quot;    stroke-width=&quot;17.5&quot;    stroke-linecap=&quot;butt&quot;    stroke-linejoin=&quot;miter&quot;    fill=&quot;none&quot;   &gt; &lt;g transform = &quot;rotate(0,750,6975)&quot;&gt; &lt;ellipse cx =&quot;750&quot; cy =&quot;6975&quot; rx =&quot;250&quot;  ry =&quot;185&quot;/&gt; &lt;/g&gt; &lt;path id= &quot;2&quot; d=&quot; M 250 7425 L 250 7180 &quot; /&gt; &lt;path id= &quot;3&quot; d=&quot; M 250 6770 L 250 6525 &quot; /&gt; &lt;path id= &quot;4&quot; d=&quot; M 250 6525 L 1750 6525 &quot; /&gt; &lt;path id= &quot;5&quot; d=&quot; M 250 7425 L 1750 7425 &quot; /&gt; &lt;path id= &quot;6&quot; d=&quot; M 1750 7425 L 1750 6525 &quot; /&gt; &lt;g transform = &quot;rotate(0,750,6975)&quot;&gt; &lt;ellipse cx =&quot;750&quot; cy =&quot;6975&quot; rx =&quot;170&quot;  ry =&quot;105&quot;/&gt; &lt;/g&gt; &lt;g transform = &quot;rotate(0,750,6975)&quot;&gt; &lt;ellipse cx =&quot;750&quot; cy =&quot;6975&quot; rx =&quot;65&quot;  ry =&quot;50&quot;/&gt; &lt;/g&gt; &lt;path id= &quot;9&quot; d=&quot; M 250 7180 L 250 6770 &quot; /&gt; &lt;path id= &quot;10&quot; d=&quot; M 270 7200 L 400 7200 &quot; /&gt; &lt;path id= &quot;11&quot; d=&quot; M 270 6750 L 400 6750 &quot; /&gt; &lt;path id= &quot;12&quot; d=&quot; M 420 7180 L 420 6770 &quot; /&gt; &lt;path d=&quot;M250 7180 A20 20 0 0 0 270 7200&quot; /&gt;&lt;path d=&quot;M270 6750 A20 20 0 0 0 250 6770&quot; /&gt;&lt;path d=&quot;M420 7180 A20 20 0 0 1 400 7200&quot; /&gt;&lt;path d=&quot;M400 6750 A20 20 0 0 1 420 6770&quot; /&gt;&lt;/g&gt; &lt;/g&gt; "/>
+				</Property>
+				<Property name="X" type="App::PropertyFloat">
+					<Float value="25.000000000000"/>
+				</Property>
+				<Property name="Y" type="App::PropertyFloat">
+					<Float value="-82.500000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Ortho008">
+			<Properties Count="11">
+				<Property name="Direction" type="App::PropertyVector">
+					<PropertyVector valueX="0.000000000000" valueY="0.000000000000" valueZ="1.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="Top_ensuite_shower"/>
+				</Property>
+				<Property name="LineWidth" type="App::PropertyFloat">
+					<Float value="0.349999994040"/>
+				</Property>
+				<Property name="Rotation" type="App::PropertyFloat">
+					<Float value="0.000000000000"/>
+				</Property>
+				<Property name="Scale" type="App::PropertyFloat">
+					<Float value="0.019999999553"/>
+				</Property>
+				<Property name="ShowHiddenLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="ShowSmoothLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="Source" type="App::PropertyLink">
+					<Link value="Pocket004001002"/>
+				</Property>
+				<Property name="ViewResult" type="App::PropertyString">
+					<String value="&lt;g id=&quot;Top_ensuite_shower&quot;    transform=&quot;rotate(0,25,-83) translate(25,-83) scale(0.02,0.02)&quot;   &gt; &lt;g   stroke=&quot;rgb(0, 0, 0)&quot;    stroke-width=&quot;17.5&quot;    stroke-linecap=&quot;butt&quot;    stroke-linejoin=&quot;miter&quot;    fill=&quot;none&quot;   &gt; &lt;path id= &quot;1&quot; d=&quot; M 2515 7350 L 2515 7380 &quot; /&gt; &lt;path id= &quot;2&quot; d=&quot; M 2515 6605 L 2515 6635 &quot; /&gt; &lt;path id= &quot;3&quot; d=&quot; M 2515 7330 L 2515 7350 &quot; /&gt; &lt;path id= &quot;4&quot; d=&quot; M 2515 7330 L 2515 6655 &quot; /&gt; &lt;path id= &quot;5&quot; d=&quot; M 2515 6635 L 2515 6655 &quot; /&gt; &lt;path d=&quot;M2515 7380 A20 20 0 0 0 2535 7400&quot; /&gt;&lt;path id= &quot;7&quot; d=&quot; M 2435 6535 L 2435 6635 &quot; /&gt; &lt;path id= &quot;8&quot; d=&quot; M 2435 6535 L 3350 6535 &quot; /&gt; &lt;path id= &quot;9&quot; d=&quot; M 2435 6635 L 2515 6635 &quot; /&gt; &lt;path id= &quot;10&quot; d=&quot; M 3350 6535 L 3350 7450 &quot; /&gt; &lt;path id= &quot;11&quot; d=&quot; M 2435 7450 L 3350 7450 &quot; /&gt; &lt;path d=&quot;M2535 6585 A20 20 0 0 0 2515 6605&quot; /&gt;&lt;path id= &quot;13&quot; d=&quot; M 2435 7350 L 2435 7450 &quot; /&gt; &lt;path id= &quot;14&quot; d=&quot; M 2535 6585 L 3255 6585 &quot; /&gt; &lt;path id= &quot;15&quot; d=&quot; M 2515 7350 L 2435 7350 &quot; /&gt; &lt;path d=&quot;M3275 6605 A20 20 0 0 0 3255 6585&quot; /&gt;&lt;path id= &quot;17&quot; d=&quot; M 3275 6775 L 3275 6605 &quot; /&gt; &lt;path id= &quot;18&quot; d=&quot; M 3255 7400 L 2535 7400 &quot; /&gt; &lt;path id= &quot;19&quot; d=&quot; M 3275 6775 L 3275 7380 &quot; /&gt; &lt;path d=&quot;M3255 7400 A20 20 0 0 0 3275 7380&quot; /&gt;&lt;path id= &quot;21&quot; d=&quot; M 2435 7330 L 2435 7350 &quot; /&gt; &lt;path id= &quot;22&quot; d=&quot; M 2435 6655 L 2435 7330 &quot; /&gt; &lt;path id= &quot;23&quot; d=&quot; M 2435 6635 L 2435 6655 &quot; /&gt; &lt;path d=&quot;M2535 7400 A20 20 0 0 1 2515 7380&quot; /&gt;&lt;circle cx =&quot;3175&quot; cy =&quot;7000&quot; r =&quot;40&quot; /&gt;&lt;circle cx =&quot;3175&quot; cy =&quot;7000&quot; r =&quot;40&quot; /&gt;&lt;path d=&quot;M3099.14 6590.86 A20 20 0 0 0 3085 6585&quot; /&gt;&lt;path id= &quot;28&quot; d=&quot; M 3269.14 6760.86 L 3099.14 6590.86 &quot; /&gt; &lt;path d=&quot;M3275 6775 A20 20 0 0 0 3269.14 6760.86&quot; /&gt;&lt;circle cx =&quot;3175&quot; cy =&quot;7000&quot; r =&quot;25&quot; /&gt;&lt;/g&gt; &lt;/g&gt; "/>
+				</Property>
+				<Property name="X" type="App::PropertyFloat">
+					<Float value="25.000000000000"/>
+				</Property>
+				<Property name="Y" type="App::PropertyFloat">
+					<Float value="-83.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="View">
+			<Properties Count="11">
+				<Property name="Direction" type="App::PropertyVector">
+					<PropertyVector valueX="0.000000000000" valueY="0.000000000000" valueZ="1.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="View_main_toilet"/>
+				</Property>
+				<Property name="LineWidth" type="App::PropertyFloat">
+					<Float value="0.349999994040"/>
+				</Property>
+				<Property name="Rotation" type="App::PropertyFloat">
+					<Float value="0.000000000000"/>
+				</Property>
+				<Property name="Scale" type="App::PropertyFloat">
+					<Float value="0.019999999553"/>
+				</Property>
+				<Property name="ShowHiddenLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="ShowSmoothLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="Source" type="App::PropertyLink">
+					<Link value="Fusion001003"/>
+				</Property>
+				<Property name="ViewResult" type="App::PropertyString">
+					<String value="&lt;g id=&quot;View_main_toilet&quot;    transform=&quot;rotate(0,25,-83) translate(25,-83) scale(0.02,0.02)&quot;   &gt; &lt;g   stroke=&quot;rgb(0, 0, 0)&quot;    stroke-width=&quot;17.5&quot;    stroke-linecap=&quot;butt&quot;    stroke-linejoin=&quot;miter&quot;    fill=&quot;none&quot;   &gt; &lt;path id= &quot;1&quot; d=&quot; M 3620 7000 L 3702.29 7000 &quot; /&gt; &lt;path id= &quot;2&quot; d=&quot; M 3620 6950 L 3702.29 6950 &quot; /&gt; &lt;/g&gt; &lt;g   stroke=&quot;rgb(0, 0, 0)&quot;    stroke-width=&quot;17.5&quot;    stroke-linecap=&quot;butt&quot;    stroke-linejoin=&quot;miter&quot;    fill=&quot;none&quot;   &gt; &lt;g transform = &quot;rotate(0,3950,6975)&quot;&gt; &lt;ellipse cx =&quot;3950&quot; cy =&quot;6975&quot; rx =&quot;250&quot;  ry =&quot;185&quot;/&gt; &lt;/g&gt; &lt;path id= &quot;2&quot; d=&quot; M 3450 7425 L 3450 7180 &quot; /&gt; &lt;path id= &quot;3&quot; d=&quot; M 3450 6770 L 3450 6525 &quot; /&gt; &lt;path id= &quot;4&quot; d=&quot; M 3450 6525 L 4950 6525 &quot; /&gt; &lt;path id= &quot;5&quot; d=&quot; M 3450 7425 L 4950 7425 &quot; /&gt; &lt;path id= &quot;6&quot; d=&quot; M 4950 7425 L 4950 6525 &quot; /&gt; &lt;g transform = &quot;rotate(0,3950,6975)&quot;&gt; &lt;ellipse cx =&quot;3950&quot; cy =&quot;6975&quot; rx =&quot;170&quot;  ry =&quot;105&quot;/&gt; &lt;/g&gt; &lt;g transform = &quot;rotate(0,3950,6975)&quot;&gt; &lt;ellipse cx =&quot;3950&quot; cy =&quot;6975&quot; rx =&quot;65&quot;  ry =&quot;50&quot;/&gt; &lt;/g&gt; &lt;path id= &quot;9&quot; d=&quot; M 3450 7180 L 3450 6770 &quot; /&gt; &lt;path id= &quot;10&quot; d=&quot; M 3470 7200 L 3600 7200 &quot; /&gt; &lt;path id= &quot;11&quot; d=&quot; M 3470 6750 L 3600 6750 &quot; /&gt; &lt;path id= &quot;12&quot; d=&quot; M 3620 7180 L 3620 6770 &quot; /&gt; &lt;path d=&quot;M3450 7180 A20 20 0 0 0 3470 7200&quot; /&gt;&lt;path d=&quot;M3470 6750 A20 20 0 0 0 3450 6770&quot; /&gt;&lt;path d=&quot;M3620 7180 A20 20 0 0 1 3600 7200&quot; /&gt;&lt;path d=&quot;M3600 6750 A20 20 0 0 1 3620 6770&quot; /&gt;&lt;/g&gt; &lt;/g&gt; "/>
+				</Property>
+				<Property name="X" type="App::PropertyFloat">
+					<Float value="25.000000000000"/>
+				</Property>
+				<Property name="Y" type="App::PropertyFloat">
+					<Float value="-83.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="View001">
+			<Properties Count="11">
+				<Property name="Direction" type="App::PropertyVector">
+					<PropertyVector valueX="0.000000000000" valueY="0.000000000000" valueZ="1.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="View001_main_bath"/>
+				</Property>
+				<Property name="LineWidth" type="App::PropertyFloat">
+					<Float value="0.349999994040"/>
+				</Property>
+				<Property name="Rotation" type="App::PropertyFloat">
+					<Float value="0.000000000000"/>
+				</Property>
+				<Property name="Scale" type="App::PropertyFloat">
+					<Float value="0.019999999553"/>
+				</Property>
+				<Property name="ShowHiddenLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="ShowSmoothLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="Source" type="App::PropertyLink">
+					<Link value="Pocket001"/>
+				</Property>
+				<Property name="ViewResult" type="App::PropertyString">
+					<String value="&lt;g id=&quot;View001_main_bath&quot;    transform=&quot;rotate(0,25,-89) translate(25,-89) scale(0.02,0.02)&quot;   &gt; &lt;g   stroke=&quot;rgb(0, 0, 0)&quot;    stroke-width=&quot;17.5&quot;    stroke-linecap=&quot;butt&quot;    stroke-linejoin=&quot;miter&quot;    fill=&quot;none&quot;   &gt; &lt;path id= &quot;1&quot; d=&quot; M 5200 7550 L 5200 6750 &quot; /&gt; &lt;path id= &quot;2&quot; d=&quot; M 5200 7550 L 6900 7550 &quot; /&gt; &lt;path id= &quot;3&quot; d=&quot; M 5400 7450 L 6700 7450 &quot; /&gt; &lt;path d=&quot;M5300 7350 A100 100 0 0 0 5400 7450&quot; /&gt;&lt;path d=&quot;M6700 7450 A99.9999 99.9999 0 0 0 6800 7350&quot; /&gt;&lt;path id= &quot;6&quot; d=&quot; M 5300 6950 L 5300 7350 &quot; /&gt; &lt;path id= &quot;7&quot; d=&quot; M 6800 7350 L 6800 6950 &quot; /&gt; &lt;path d=&quot;M5400 6850 A100 100 0 0 0 5300 6950&quot; /&gt;&lt;path d=&quot;M6800 6950 A99.9999 99.9999 0 0 0 6700 6850&quot; /&gt;&lt;path id= &quot;10&quot; d=&quot; M 6700 6850 L 5400 6850 &quot; /&gt; &lt;path id= &quot;11&quot; d=&quot; M 5200 6750 L 6900 6750 &quot; /&gt; &lt;path id= &quot;12&quot; d=&quot; M 6900 7550 L 6900 6750 &quot; /&gt; &lt;path id= &quot;13&quot; d=&quot; M 5400 7450 L 5500 7400 &quot; /&gt; &lt;path id= &quot;14&quot; d=&quot; M 6700 7450 L 6600 7400 &quot; /&gt; &lt;path id= &quot;15&quot; d=&quot; M 5500 7400 L 6600 7400 &quot; /&gt; &lt;path id= &quot;16&quot; d=&quot; M 5300 7350 L 5400 7300 &quot; /&gt; &lt;path d=&quot;M5400 7300 A100 100 0 0 0 5500 7400&quot; /&gt;&lt;path id= &quot;18&quot; d=&quot; M 6800 7350 L 6700 7300 &quot; /&gt; &lt;path d=&quot;M6600 7400 A100 100 0 0 0 6700 7300&quot; /&gt;&lt;path id= &quot;20&quot; d=&quot; M 5300 6950 L 5400 7000 &quot; /&gt; &lt;path id= &quot;21&quot; d=&quot; M 5400 7000 L 5400 7300 &quot; /&gt; &lt;path id= &quot;22&quot; d=&quot; M 6800 6950 L 6700 7000 &quot; /&gt; &lt;path id= &quot;23&quot; d=&quot; M 6700 7300 L 6700 7000 &quot; /&gt; &lt;path id= &quot;24&quot; d=&quot; M 5400 6850 L 5500 6900 &quot; /&gt; &lt;path d=&quot;M5500 6900 A100 100 0 0 0 5400 7000&quot; /&gt;&lt;path id= &quot;26&quot; d=&quot; M 6700 6850 L 6600 6900 &quot; /&gt; &lt;path d=&quot;M6700 7000 A100 100 0 0 0 6600 6900&quot; /&gt;&lt;path id= &quot;28&quot; d=&quot; M 6600 6900 L 5500 6900 &quot; /&gt; &lt;path d=&quot;M6082 7150 A32 32 0 1 0 6050 7182&quot; /&gt;&lt;path d=&quot;M6050 7182 A32 32 0 0 0 6082 7150&quot; /&gt;&lt;/g&gt; &lt;/g&gt; "/>
+				</Property>
+				<Property name="X" type="App::PropertyFloat">
+					<Float value="25.000000000000"/>
+				</Property>
+				<Property name="Y" type="App::PropertyFloat">
+					<Float value="-89.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="View002">
+			<Properties Count="11">
+				<Property name="Direction" type="App::PropertyVector">
+					<PropertyVector valueX="0.000000000000" valueY="0.000000000000" valueZ="1.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="View002_laundry_toilet"/>
+				</Property>
+				<Property name="LineWidth" type="App::PropertyFloat">
+					<Float value="0.349999994040"/>
+				</Property>
+				<Property name="Rotation" type="App::PropertyFloat">
+					<Float value="0.000000000000"/>
+				</Property>
+				<Property name="Scale" type="App::PropertyFloat">
+					<Float value="0.019999999553"/>
+				</Property>
+				<Property name="ShowHiddenLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="ShowSmoothLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="Source" type="App::PropertyLink">
+					<Link value="Fusion001001"/>
+				</Property>
+				<Property name="ViewResult" type="App::PropertyString">
+					<String value="&lt;g id=&quot;View002_laundry_toilet&quot;    transform=&quot;rotate(0,25,-75) translate(25,-75) scale(0.02,0.02)&quot;   &gt; &lt;g   stroke=&quot;rgb(0, 0, 0)&quot;    stroke-width=&quot;17.5&quot;    stroke-linecap=&quot;butt&quot;    stroke-linejoin=&quot;miter&quot;    fill=&quot;none&quot;   &gt; &lt;path id= &quot;1&quot; d=&quot; M 7575 6220 L 7575 6302.29 &quot; /&gt; &lt;path id= &quot;2&quot; d=&quot; M 7625 6220 L 7625 6302.29 &quot; /&gt; &lt;/g&gt; &lt;g   stroke=&quot;rgb(0, 0, 0)&quot;    stroke-width=&quot;17.5&quot;    stroke-linecap=&quot;butt&quot;    stroke-linejoin=&quot;miter&quot;    fill=&quot;none&quot;   &gt; &lt;g transform = &quot;rotate(90,7600,6550)&quot;&gt; &lt;ellipse cx =&quot;7600&quot; cy =&quot;6550&quot; rx =&quot;250&quot;  ry =&quot;185&quot;/&gt; &lt;/g&gt; &lt;path id= &quot;2&quot; d=&quot; M 7150 6050 L 7395 6050 &quot; /&gt; &lt;path id= &quot;3&quot; d=&quot; M 7805 6050 L 8050 6050 &quot; /&gt; &lt;path id= &quot;4&quot; d=&quot; M 8050 6050 L 8050 7550 &quot; /&gt; &lt;path id= &quot;5&quot; d=&quot; M 7150 6050 L 7150 7550 &quot; /&gt; &lt;path id= &quot;6&quot; d=&quot; M 7150 7550 L 8050 7550 &quot; /&gt; &lt;g transform = &quot;rotate(90,7600,6550)&quot;&gt; &lt;ellipse cx =&quot;7600&quot; cy =&quot;6550&quot; rx =&quot;170&quot;  ry =&quot;105&quot;/&gt; &lt;/g&gt; &lt;g transform = &quot;rotate(90,7600,6550)&quot;&gt; &lt;ellipse cx =&quot;7600&quot; cy =&quot;6550&quot; rx =&quot;65&quot;  ry =&quot;50&quot;/&gt; &lt;/g&gt; &lt;path id= &quot;9&quot; d=&quot; M 7395 6050 L 7805 6050 &quot; /&gt; &lt;path id= &quot;10&quot; d=&quot; M 7395 6050 L 7805 6050 &quot; /&gt; &lt;path d=&quot;M7805 6050 A20 20 0 0 1 7825 6070&quot; /&gt;&lt;path id= &quot;12&quot; d=&quot; M 7375 6070 L 7375 6200 &quot; /&gt; &lt;path id= &quot;13&quot; d=&quot; M 7825 6070 L 7825 6200 &quot; /&gt; &lt;path d=&quot;M7805 6220 A20 20 0 0 0 7825 6200&quot; /&gt;&lt;path id= &quot;15&quot; d=&quot; M 7395 6220 L 7805 6220 &quot; /&gt; &lt;path d=&quot;M7395 6050 A20 20 0 0 0 7375 6070&quot; /&gt;&lt;path d=&quot;M7825 6070 A20 20 0 0 0 7805 6050&quot; /&gt;&lt;path d=&quot;M7395 6220 A20 20 0 0 1 7375 6200&quot; /&gt;&lt;path d=&quot;M7825 6200 A20 20 0 0 1 7805 6220&quot; /&gt;&lt;/g&gt; &lt;/g&gt; "/>
+				</Property>
+				<Property name="X" type="App::PropertyFloat">
+					<Float value="25.000000000000"/>
+				</Property>
+				<Property name="Y" type="App::PropertyFloat">
+					<Float value="-75.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="View003">
+			<Properties Count="11">
+				<Property name="Direction" type="App::PropertyVector">
+					<PropertyVector valueX="0.000000000000" valueY="0.000000000000" valueZ="1.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="View003_laundry_shower"/>
+				</Property>
+				<Property name="LineWidth" type="App::PropertyFloat">
+					<Float value="0.349999994040"/>
+				</Property>
+				<Property name="Rotation" type="App::PropertyFloat">
+					<Float value="0.000000000000"/>
+				</Property>
+				<Property name="Scale" type="App::PropertyFloat">
+					<Float value="0.019999999553"/>
+				</Property>
+				<Property name="ShowHiddenLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="ShowSmoothLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="Source" type="App::PropertyLink">
+					<Link value="Pocket004001001"/>
+				</Property>
+				<Property name="ViewResult" type="App::PropertyString">
+					<String value="&lt;g id=&quot;View003_laundry_shower&quot;    transform=&quot;rotate(0,25,-18.5) translate(25,-18.5) scale(0.02,0.02)&quot;   &gt; &lt;g   stroke=&quot;rgb(0, 0, 0)&quot;    stroke-width=&quot;17.5&quot;    stroke-linecap=&quot;butt&quot;    stroke-linejoin=&quot;miter&quot;    fill=&quot;none&quot;   &gt; &lt;path id= &quot;1&quot; d=&quot; M 7242 4980 L 7212 4980 &quot; /&gt; &lt;path id= &quot;2&quot; d=&quot; M 7987 4980 L 7957 4980 &quot; /&gt; &lt;path id= &quot;3&quot; d=&quot; M 7262 4980 L 7242 4980 &quot; /&gt; &lt;path id= &quot;4&quot; d=&quot; M 7262 4980 L 7937 4980 &quot; /&gt; &lt;path id= &quot;5&quot; d=&quot; M 7957 4980 L 7937 4980 &quot; /&gt; &lt;path d=&quot;M7212 4980 A20 20 0 0 0 7192 5000&quot; /&gt;&lt;path id= &quot;7&quot; d=&quot; M 8057 4900 L 7957 4900 &quot; /&gt; &lt;path id= &quot;8&quot; d=&quot; M 8057 4900 L 8057 5815 &quot; /&gt; &lt;path id= &quot;9&quot; d=&quot; M 7957 4900 L 7957 4980 &quot; /&gt; &lt;path id= &quot;10&quot; d=&quot; M 8057 5815 L 7142 5815 &quot; /&gt; &lt;path id= &quot;11&quot; d=&quot; M 7142 4900 L 7142 5815 &quot; /&gt; &lt;path d=&quot;M8007 5000 A20 20 0 0 0 7987 4980&quot; /&gt;&lt;path id= &quot;13&quot; d=&quot; M 7242 4900 L 7142 4900 &quot; /&gt; &lt;path id= &quot;14&quot; d=&quot; M 8007 5000 L 8007 5720 &quot; /&gt; &lt;path id= &quot;15&quot; d=&quot; M 7242 4980 L 7242 4900 &quot; /&gt; &lt;path d=&quot;M7987 5740 A20 20 0 0 0 8007 5720&quot; /&gt;&lt;path id= &quot;17&quot; d=&quot; M 7817 5740 L 7987 5740 &quot; /&gt; &lt;path id= &quot;18&quot; d=&quot; M 7192 5720 L 7192 5000 &quot; /&gt; &lt;path id= &quot;19&quot; d=&quot; M 7817 5740 L 7212 5740 &quot; /&gt; &lt;path d=&quot;M7192 5720 A20 20 0 0 0 7212 5740&quot; /&gt;&lt;path id= &quot;21&quot; d=&quot; M 7262 4900 L 7242 4900 &quot; /&gt; &lt;path id= &quot;22&quot; d=&quot; M 7937 4900 L 7262 4900 &quot; /&gt; &lt;path id= &quot;23&quot; d=&quot; M 7957 4900 L 7937 4900 &quot; /&gt; &lt;path d=&quot;M7192 5000 A20 20 0 0 1 7212 4980&quot; /&gt;&lt;circle cx =&quot;7592&quot; cy =&quot;5640&quot; r =&quot;40&quot; /&gt;&lt;path d=&quot;M7987 4980 A20 20 0 0 1 8007 5000&quot; /&gt;&lt;path d=&quot;M7987 5740 A20 20 0 0 0 8007 5720&quot; /&gt;&lt;circle cx =&quot;7592&quot; cy =&quot;5640&quot; r =&quot;40&quot; /&gt;&lt;path d=&quot;M8001.14 5564.14 A20 20 0 0 0 8007 5550&quot; /&gt;&lt;path id= &quot;30&quot; d=&quot; M 7831.14 5734.14 L 8001.14 5564.14 &quot; /&gt; &lt;path d=&quot;M7817 5740 A20 20 0 0 0 7831.14 5734.14&quot; /&gt;&lt;circle cx =&quot;7592&quot; cy =&quot;5640&quot; r =&quot;25&quot; /&gt;&lt;path d=&quot;M8007 5550 A20 20 0 0 1 8001.14 5564.14&quot; /&gt;&lt;/g&gt; &lt;/g&gt; "/>
+				</Property>
+				<Property name="X" type="App::PropertyFloat">
+					<Float value="25.000000000000"/>
+				</Property>
+				<Property name="Y" type="App::PropertyFloat">
+					<Float value="-18.500000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="View004">
+			<Properties Count="11">
+				<Property name="Direction" type="App::PropertyVector">
+					<PropertyVector valueX="0.000000000000" valueY="0.000000000000" valueZ="1.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="View004_single_extra_long_bed"/>
+				</Property>
+				<Property name="LineWidth" type="App::PropertyFloat">
+					<Float value="0.349999994040"/>
+				</Property>
+				<Property name="Rotation" type="App::PropertyFloat">
+					<Float value="0.000000000000"/>
+				</Property>
+				<Property name="Scale" type="App::PropertyFloat">
+					<Float value="0.019999999553"/>
+				</Property>
+				<Property name="ShowHiddenLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="ShowSmoothLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="Source" type="App::PropertyLink">
+					<Link value="Fusion001001001"/>
+				</Property>
+				<Property name="ViewResult" type="App::PropertyString">
+					<String value="&lt;g id=&quot;View004_single_extra_long_bed&quot;    transform=&quot;rotate(0,25,142) translate(25,142) scale(0.02,0.02)&quot;   &gt; &lt;g   stroke=&quot;rgb(0, 0, 0)&quot;    stroke-width=&quot;17.5&quot;    stroke-linecap=&quot;butt&quot;    stroke-linejoin=&quot;miter&quot;    fill=&quot;none&quot;   &gt; &lt;path id= &quot;1&quot; d=&quot; M 3950 2430 L 4870 2430 &quot; /&gt; &lt;path id= &quot;2&quot; d=&quot; M 3950 2330 L 4870 2330 &quot; /&gt; &lt;path id= &quot;3&quot; d=&quot; M 3950 2430 L 3950 2330 &quot; /&gt; &lt;path id= &quot;4&quot; d=&quot; M 4870 2430 L 4870 2330 &quot; /&gt; &lt;path id= &quot;5&quot; d=&quot; M 3950 2330 L 3950 280 &quot; /&gt; &lt;path id= &quot;6&quot; d=&quot; M 3950 280 L 3950 250 &quot; /&gt; &lt;path id= &quot;7&quot; d=&quot; M 4870 2330 L 4870 280 &quot; /&gt; &lt;path id= &quot;8&quot; d=&quot; M 4870 280 L 4870 250 &quot; /&gt; &lt;path id= &quot;9&quot; d=&quot; M 3950 280 L 4870 280 &quot; /&gt; &lt;path id= &quot;10&quot; d=&quot; M 3950 250 L 4870 250 &quot; /&gt; &lt;path id= &quot;11&quot; d=&quot; M 4050 2320 L 4770 2320 &quot; /&gt; &lt;path d=&quot;M4770 2320 A100 100 0 0 0 4870 2220&quot; /&gt;&lt;path d=&quot;M4050 2320 A100 100 0 0 1 3950 2220&quot; /&gt;&lt;path id= &quot;14&quot; d=&quot; M 4870 2220 L 4870 390 &quot; /&gt; &lt;path id= &quot;15&quot; d=&quot; M 3950 2220 L 3950 390 &quot; /&gt; &lt;path d=&quot;M4870 390 A100 100 0 0 0 4770 290&quot; /&gt;&lt;path d=&quot;M4050 290 A100 100 0 0 0 3950 390&quot; /&gt;&lt;path id= &quot;18&quot; d=&quot; M 4050 290 L 4770 290 &quot; /&gt; &lt;/g&gt; &lt;/g&gt; "/>
+				</Property>
+				<Property name="X" type="App::PropertyFloat">
+					<Float value="25.000000000000"/>
+				</Property>
+				<Property name="Y" type="App::PropertyFloat">
+					<Float value="142.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="View005">
+			<Properties Count="11">
+				<Property name="Direction" type="App::PropertyVector">
+					<PropertyVector valueX="0.000000000000" valueY="0.000000000000" valueZ="1.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="View005_single_extra_long_bed"/>
+				</Property>
+				<Property name="LineWidth" type="App::PropertyFloat">
+					<Float value="0.349999994040"/>
+				</Property>
+				<Property name="Rotation" type="App::PropertyFloat">
+					<Float value="0.000000000000"/>
+				</Property>
+				<Property name="Scale" type="App::PropertyFloat">
+					<Float value="0.019999999553"/>
+				</Property>
+				<Property name="ShowHiddenLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="ShowSmoothLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="Source" type="App::PropertyLink">
+					<Link value="Fusion001002001"/>
+				</Property>
+				<Property name="ViewResult" type="App::PropertyString">
+					<String value="&lt;g id=&quot;View005_single_extra_long_bed&quot;    transform=&quot;rotate(0,25,142) translate(25,142) scale(0.02,0.02)&quot;   &gt; &lt;g   stroke=&quot;rgb(0, 0, 0)&quot;    stroke-width=&quot;17.5&quot;    stroke-linecap=&quot;butt&quot;    stroke-linejoin=&quot;miter&quot;    fill=&quot;none&quot;   &gt; &lt;path id= &quot;1&quot; d=&quot; M 6250 2430 L 7170 2430 &quot; /&gt; &lt;path id= &quot;2&quot; d=&quot; M 6250 2330 L 7170 2330 &quot; /&gt; &lt;path id= &quot;3&quot; d=&quot; M 6250 2430 L 6250 2330 &quot; /&gt; &lt;path id= &quot;4&quot; d=&quot; M 7170 2430 L 7170 2330 &quot; /&gt; &lt;path id= &quot;5&quot; d=&quot; M 6250 2330 L 6250 280 &quot; /&gt; &lt;path id= &quot;6&quot; d=&quot; M 6250 280 L 6250 250 &quot; /&gt; &lt;path id= &quot;7&quot; d=&quot; M 7170 2330 L 7170 280 &quot; /&gt; &lt;path id= &quot;8&quot; d=&quot; M 7170 280 L 7170 250 &quot; /&gt; &lt;path id= &quot;9&quot; d=&quot; M 6250 2330 L 7170 2330 &quot; /&gt; &lt;path id= &quot;10&quot; d=&quot; M 6250 280 L 7170 280 &quot; /&gt; &lt;path id= &quot;11&quot; d=&quot; M 6250 250 L 7170 250 &quot; /&gt; &lt;path id= &quot;12&quot; d=&quot; M 6350 2320 L 7070 2320 &quot; /&gt; &lt;path d=&quot;M7070 2320 A100 100 0 0 0 7170 2220&quot; /&gt;&lt;path d=&quot;M6350 2320 A100 100 0 0 1 6250 2220&quot; /&gt;&lt;path id= &quot;15&quot; d=&quot; M 7170 2220 L 7170 390 &quot; /&gt; &lt;path id= &quot;16&quot; d=&quot; M 6250 2220 L 6250 390 &quot; /&gt; &lt;path d=&quot;M7170 390 A100 100 0 0 0 7070 290&quot; /&gt;&lt;path d=&quot;M6350 290 A100 100 0 0 0 6250 390&quot; /&gt;&lt;path id= &quot;19&quot; d=&quot; M 6350 290 L 7070 290 &quot; /&gt; &lt;/g&gt; &lt;/g&gt; "/>
+				</Property>
+				<Property name="X" type="App::PropertyFloat">
+					<Float value="25.000000000000"/>
+				</Property>
+				<Property name="Y" type="App::PropertyFloat">
+					<Float value="142.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="View006">
+			<Properties Count="11">
+				<Property name="Direction" type="App::PropertyVector">
+					<PropertyVector valueX="0.000000000000" valueY="0.000000000000" valueZ="1.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="View006_single_extra_long_bed"/>
+				</Property>
+				<Property name="LineWidth" type="App::PropertyFloat">
+					<Float value="0.349999994040"/>
+				</Property>
+				<Property name="Rotation" type="App::PropertyFloat">
+					<Float value="0.000000000000"/>
+				</Property>
+				<Property name="Scale" type="App::PropertyFloat">
+					<Float value="0.019999999553"/>
+				</Property>
+				<Property name="ShowHiddenLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="ShowSmoothLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="Source" type="App::PropertyLink">
+					<Link value="Fusion001003001"/>
+				</Property>
+				<Property name="ViewResult" type="App::PropertyString">
+					<String value="&lt;g id=&quot;View006_single_extra_long_bed&quot;    transform=&quot;rotate(0,25,142) translate(25,142) scale(0.02,0.02)&quot;   &gt; &lt;g   stroke=&quot;rgb(0, 0, 0)&quot;    stroke-width=&quot;17.5&quot;    stroke-linecap=&quot;butt&quot;    stroke-linejoin=&quot;miter&quot;    fill=&quot;none&quot;   &gt; &lt;path id= &quot;1&quot; d=&quot; M 8550 2430 L 9470 2430 &quot; /&gt; &lt;path id= &quot;2&quot; d=&quot; M 8550 2330 L 9470 2330 &quot; /&gt; &lt;path id= &quot;3&quot; d=&quot; M 8550 2430 L 8550 2330 &quot; /&gt; &lt;path id= &quot;4&quot; d=&quot; M 9470 2430 L 9470 2330 &quot; /&gt; &lt;path id= &quot;5&quot; d=&quot; M 8550 2330 L 8550 280 &quot; /&gt; &lt;path id= &quot;6&quot; d=&quot; M 8550 280 L 8550 250 &quot; /&gt; &lt;path id= &quot;7&quot; d=&quot; M 9470 2330 L 9470 280 &quot; /&gt; &lt;path id= &quot;8&quot; d=&quot; M 9470 280 L 9470 250 &quot; /&gt; &lt;path id= &quot;9&quot; d=&quot; M 8550 2330 L 9470 2330 &quot; /&gt; &lt;path id= &quot;10&quot; d=&quot; M 8550 280 L 9470 280 &quot; /&gt; &lt;path id= &quot;11&quot; d=&quot; M 8550 280 L 9470 280 &quot; /&gt; &lt;path id= &quot;12&quot; d=&quot; M 8550 250 L 9470 250 &quot; /&gt; &lt;path id= &quot;13&quot; d=&quot; M 8650 2320 L 9370 2320 &quot; /&gt; &lt;path d=&quot;M9370 2320 A100 100 0 0 0 9470 2220&quot; /&gt;&lt;path d=&quot;M8650 2320 A100 100 0 0 1 8550 2220&quot; /&gt;&lt;path id= &quot;16&quot; d=&quot; M 9470 2220 L 9470 390 &quot; /&gt; &lt;path id= &quot;17&quot; d=&quot; M 8550 2220 L 8550 390 &quot; /&gt; &lt;path d=&quot;M9470 390 A100 100 0 0 0 9370 290&quot; /&gt;&lt;path d=&quot;M8650 290 A100 100 0 0 0 8550 390&quot; /&gt;&lt;path id= &quot;20&quot; d=&quot; M 8650 290 L 9370 290 &quot; /&gt; &lt;/g&gt; &lt;/g&gt; "/>
+				</Property>
+				<Property name="X" type="App::PropertyFloat">
+					<Float value="25.000000000000"/>
+				</Property>
+				<Property name="Y" type="App::PropertyFloat">
+					<Float value="142.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="View007">
+			<Properties Count="11">
+				<Property name="Direction" type="App::PropertyVector">
+					<PropertyVector valueX="0.000000000000" valueY="0.000000000000" valueZ="1.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="View007_single_extra_long_bed"/>
+				</Property>
+				<Property name="LineWidth" type="App::PropertyFloat">
+					<Float value="0.349999994040"/>
+				</Property>
+				<Property name="Rotation" type="App::PropertyFloat">
+					<Float value="0.000000000000"/>
+				</Property>
+				<Property name="Scale" type="App::PropertyFloat">
+					<Float value="0.019999999553"/>
+				</Property>
+				<Property name="ShowHiddenLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="ShowSmoothLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="Source" type="App::PropertyLink">
+					<Link value="Fusion001005"/>
+				</Property>
+				<Property name="ViewResult" type="App::PropertyString">
+					<String value="&lt;g id=&quot;View007_single_extra_long_bed&quot;    transform=&quot;rotate(0,25,142) translate(25,142) scale(0.02,0.02)&quot;   &gt; &lt;g   stroke=&quot;rgb(0, 0, 0)&quot;    stroke-width=&quot;17.5&quot;    stroke-linecap=&quot;butt&quot;    stroke-linejoin=&quot;miter&quot;    fill=&quot;none&quot;   &gt; &lt;path id= &quot;1&quot; d=&quot; M 10850 2430 L 11770 2430 &quot; /&gt; &lt;path id= &quot;2&quot; d=&quot; M 10850 2330 L 11770 2330 &quot; /&gt; &lt;path id= &quot;3&quot; d=&quot; M 10850 2430 L 10850 2330 &quot; /&gt; &lt;path id= &quot;4&quot; d=&quot; M 11770 2430 L 11770 2330 &quot; /&gt; &lt;path id= &quot;5&quot; d=&quot; M 10850 2330 L 10850 280 &quot; /&gt; &lt;path id= &quot;6&quot; d=&quot; M 10850 280 L 10850 250 &quot; /&gt; &lt;path id= &quot;7&quot; d=&quot; M 11770 2330 L 11770 280 &quot; /&gt; &lt;path id= &quot;8&quot; d=&quot; M 11770 280 L 11770 250 &quot; /&gt; &lt;path id= &quot;9&quot; d=&quot; M 10850 2330 L 11770 2330 &quot; /&gt; &lt;path id= &quot;10&quot; d=&quot; M 10850 280 L 11770 280 &quot; /&gt; &lt;path id= &quot;11&quot; d=&quot; M 10850 250 L 11770 250 &quot; /&gt; &lt;path id= &quot;12&quot; d=&quot; M 10950 2320 L 11670 2320 &quot; /&gt; &lt;path d=&quot;M11670 2320 A100 100 0 0 0 11770 2220&quot; /&gt;&lt;path d=&quot;M10950 2320 A100 100 0 0 1 10850 2220&quot; /&gt;&lt;path id= &quot;15&quot; d=&quot; M 11770 2220 L 11770 390 &quot; /&gt; &lt;path id= &quot;16&quot; d=&quot; M 10850 2220 L 10850 390 &quot; /&gt; &lt;path d=&quot;M11770 390 A100 100 0 0 0 11670 290&quot; /&gt;&lt;path d=&quot;M10950 290 A100 100 0 0 0 10850 390&quot; /&gt;&lt;path id= &quot;19&quot; d=&quot; M 10950 290 L 11670 290 &quot; /&gt; &lt;/g&gt; &lt;/g&gt; "/>
+				</Property>
+				<Property name="X" type="App::PropertyFloat">
+					<Float value="25.000000000000"/>
+				</Property>
+				<Property name="Y" type="App::PropertyFloat">
+					<Float value="142.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="View008">
+			<Properties Count="11">
+				<Property name="Direction" type="App::PropertyVector">
+					<PropertyVector valueX="0.000000000000" valueY="0.000000000000" valueZ="1.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="View008_wood_fire_heater_system"/>
+				</Property>
+				<Property name="LineWidth" type="App::PropertyFloat">
+					<Float value="0.349999994040"/>
+				</Property>
+				<Property name="Rotation" type="App::PropertyFloat">
+					<Float value="0.000000000000"/>
+				</Property>
+				<Property name="Scale" type="App::PropertyFloat">
+					<Float value="0.019999999553"/>
+				</Property>
+				<Property name="ShowHiddenLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="ShowSmoothLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="Source" type="App::PropertyLink">
+					<Link value="Fusion"/>
+				</Property>
+				<Property name="ViewResult" type="App::PropertyString">
+					<String value="&lt;g id=&quot;View008_wood_fire_heater_system&quot;    transform=&quot;rotate(0,25,80) translate(25,80) scale(0.02,0.02)&quot;   &gt; &lt;g   stroke=&quot;rgb(0, 0, 0)&quot;    stroke-width=&quot;17.5&quot;    stroke-linecap=&quot;butt&quot;    stroke-linejoin=&quot;miter&quot;    fill=&quot;none&quot;   &gt; &lt;path id= &quot;1&quot; d=&quot; M 13250 3850 L 14150 3850 &quot; /&gt; &lt;path id= &quot;2&quot; d=&quot; M 14150 3850 L 14150 3350 &quot; /&gt; &lt;path id= &quot;3&quot; d=&quot; M 13250 3850 L 13250 3350 &quot; /&gt; &lt;path id= &quot;4&quot; d=&quot; M 13250 3350 L 14150 3350 &quot; /&gt; &lt;path id= &quot;5&quot; d=&quot; M 14150 3350 L 14150 2965 &quot; /&gt; &lt;path id= &quot;6&quot; d=&quot; M 13250 3350 L 13250 2050 &quot; /&gt; &lt;path id= &quot;7&quot; d=&quot; M 13250 2050 L 14150 2050 &quot; /&gt; &lt;path id= &quot;8&quot; d=&quot; M 14150 2435 L 14150 2050 &quot; /&gt; &lt;path id= &quot;9&quot; d=&quot; M 13550 2965 L 13550 2435 &quot; /&gt; &lt;path id= &quot;10&quot; d=&quot; M 13550 2965 L 14150 2965 &quot; /&gt; &lt;path id= &quot;11&quot; d=&quot; M 13550 2435 L 14150 2435 &quot; /&gt; &lt;path id= &quot;12&quot; d=&quot; M 14150 2965 L 14150 2435 &quot; /&gt; &lt;/g&gt; &lt;/g&gt; "/>
+				</Property>
+				<Property name="X" type="App::PropertyFloat">
+					<Float value="25.000000000000"/>
+				</Property>
+				<Property name="Y" type="App::PropertyFloat">
+					<Float value="80.000000000000"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="View009">
+			<Properties Count="11">
+				<Property name="Direction" type="App::PropertyVector">
+					<PropertyVector valueX="0.000000000000" valueY="0.000000000000" valueZ="1.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="View009_wood_fire_heater_flue_assembly"/>
+				</Property>
+				<Property name="LineWidth" type="App::PropertyFloat">
+					<Float value="0.349999994040"/>
+				</Property>
+				<Property name="Rotation" type="App::PropertyFloat">
+					<Float value="0.000000000000"/>
+				</Property>
+				<Property name="Scale" type="App::PropertyFloat">
+					<Float value="0.019999999553"/>
+				</Property>
+				<Property name="ShowHiddenLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="ShowSmoothLines" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="Source" type="App::PropertyLink">
+					<Link value="Fusion001"/>
+				</Property>
+				<Property name="ViewResult" type="App::PropertyString">
+					<String value="&lt;g id=&quot;View009_wood_fire_heater_flue_assembly&quot;    transform=&quot;rotate(0,25,80) translate(25,80) scale(0.02,0.02)&quot;   &gt; &lt;g   stroke=&quot;rgb(0, 0, 0)&quot;    stroke-width=&quot;17.5&quot;    stroke-linecap=&quot;butt&quot;    stroke-linejoin=&quot;miter&quot;    fill=&quot;none&quot;   &gt; &lt;circle cx =&quot;13700&quot; cy =&quot;3200&quot; r =&quot;250&quot; /&gt;&lt;circle cx =&quot;13700&quot; cy =&quot;3200&quot; r =&quot;10&quot; /&gt;&lt;/g&gt; &lt;/g&gt; "/>
+				</Property>
+				<Property name="X" type="App::PropertyFloat">
+					<Float value="25.000000000000"/>
+				</Property>
+				<Property name="Y" type="App::PropertyFloat">
+					<Float value="80.000000000000"/>
 				</Property>
 			</Properties>
 		</Object>

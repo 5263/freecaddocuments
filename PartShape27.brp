@@ -9,7 +9,7 @@ Locations 2
 2  1 -1 0
 Curve2ds 0
 Curves 1
-1 14350 250 0 0 1 0 
+1 14550 250 0 0 1 0 
 Polygon3D 0
 PolygonOnTriangulations 0
 Surfaces 0
@@ -17,22 +17,22 @@ Triangulations 0
 
 TShapes 4
 Ve
-1.00005e-07
-14350 250 0
+1e-07
+14550 250 0
 0 0
 
 0101101
 *
 Ve
-1.00005e-07
-14350 1250 0
+1e-07
+14550 1150 0
 0 0
 
 0101101
 *
 Ed
- 1.00005e-07 1 1 0
-1  1 0 0 1000
+ 1e-07 1 1 0
+1  1 0 0 900
 0
 
 0101000
