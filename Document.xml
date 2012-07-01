@@ -29,10 +29,10 @@
 			<String value=""/>
 		</Property>
 		<Property name="LastModifiedDate" type="App::PropertyString">
-			<String value="Sat Jun 30 23:08:43 2012 "/>
+			<String value="Sun Jul  1 19:36:03 2012 "/>
 		</Property>
 	</Properties>
-	<Objects Count="268">
+	<Objects Count="271">
 		<Object type="Part::Box" name="Box" />
 		<Object type="Part::Box" name="Box001" />
 		<Object type="Part::Box" name="Box002" />
@@ -301,8 +301,11 @@
 		<Object type="Part::Feature" name="Fusion001005001003" />
 		<Object type="Part::Feature" name="Cylinder001001001" />
 		<Object type="Part::Feature" name="Cylinder001002001" />
+		<Object type="App::DocumentObjectGroup" name="Group002004006" />
+		<Object type="App::DocumentObjectGroup" name="Group002004007" />
+		<Object type="Part::Feature" name="Fusion002001" />
 	</Objects>
-	<ObjectData Count="268">
+	<ObjectData Count="271">
 		<Object name="Box">
 			<Properties Count="7">
 				<Property name="Height" type="App::PropertyLength">
@@ -2407,7 +2410,7 @@
 		<Object name="Group004">
 			<Properties Count="2">
 				<Property name="Group" type="App::PropertyLinkList">
-					<LinkList count="10">
+					<LinkList count="11">
 						<Link value="Group005"/>
 						<Link value="Box002002"/>
 						<Link value="Group002003"/>
@@ -2418,6 +2421,7 @@
 						<Link value="Group002028"/>
 						<Link value="Group002004001"/>
 						<Link value="Group002004004"/>
+						<Link value="Group002004006"/>
 					</LinkList>
 				</Property>
 				<Property name="Label" type="App::PropertyString">
@@ -8732,6 +8736,46 @@
 				</Property>
 				<Property name="Shape" type="Part::PropertyPartShape">
 					<Part file="PartShape196.brp"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Group002004006">
+			<Properties Count="2">
+				<Property name="Group" type="App::PropertyLinkList">
+					<LinkList count="1">
+						<Link value="Group002004007"/>
+					</LinkList>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="dining_room_furniture_layout"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Group002004007">
+			<Properties Count="2">
+				<Property name="Group" type="App::PropertyLinkList">
+					<LinkList count="1">
+						<Link value="Fusion002001"/>
+					</LinkList>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="simple_copies006"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Fusion002001">
+			<Properties Count="4">
+				<Property name="Label" type="App::PropertyString">
+					<String value="dining_room_table_and_chairs"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="14550.000000000000" Py="4750.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+				</Property>
+				<Property name="Pos" type="App::PropertyPlacementLink">
+					<Link value=""/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape197.brp"/>
 				</Property>
 			</Properties>
 		</Object>
