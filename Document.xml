@@ -2,7 +2,7 @@
 <!--
  FreeCAD Document, see http://www.freecadweb.org for more information...
 -->
-<Document SchemaVersion="4" ProgramVersion="0.14R3705 (Git)" FileVersion="1">
+<Document SchemaVersion="4" ProgramVersion="0.14R3700 (Git)" FileVersion="1">
 	<Properties Count="14">
 		<Property name="Comment" type="App::PropertyString">
 			<String value=""/>
@@ -17,19 +17,19 @@
 			<String value="Wed Nov 12 20:10:13 2014&#xA;"/>
 		</Property>
 		<Property name="FileName" type="App::PropertyString">
-			<String value="/home/mark/Downloads/aaa1a.fcstd"/>
+			<String value="C:/Users/nchamberland/Downloads/aaa1_normandc1.FCStd"/>
 		</Property>
 		<Property name="Id" type="App::PropertyString">
 			<String value=""/>
 		</Property>
 		<Property name="Label" type="App::PropertyString">
-			<String value="aaa1a"/>
+			<String value="aaa1_normandc1"/>
 		</Property>
 		<Property name="LastModifiedBy" type="App::PropertyString">
 			<String value=""/>
 		</Property>
 		<Property name="LastModifiedDate" type="App::PropertyString">
-			<String value="Wed Nov 12 16:58:52 2014&#xA;"/>
+			<String value="Wed Nov 12 17:09:00 2014&#xA;"/>
 		</Property>
 		<Property name="License" type="App::PropertyString">
 			<String value="CC-BY 3.0"/>
