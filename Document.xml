@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="0.14R3702 (Git)" FileVersion="1">
+	<Properties Count="14">
+		<Property name="Comment" type="App::PropertyString">
+			<String value=""/>
+		</Property>
+		<Property name="Company" type="App::PropertyString">
+			<String value=""/>
+		</Property>
+		<Property name="CreatedBy" type="App::PropertyString">
+			<String value=""/>
+		</Property>
+		<Property name="CreationDate" type="App::PropertyString">
+			<String value="Thu Nov 20 11:45:19 2014&#xA;"/>
+		</Property>
+		<Property name="FileName" type="App::PropertyString">
+			<String value="/home/carrel/Images/Engrenage1.fcstd"/>
+		</Property>
+		<Property name="Id" type="App::PropertyString">
+			<String value=""/>
+		</Property>
+		<Property name="Label" type="App::PropertyString">
+			<String value="Engrenage1"/>
+		</Property>
+		<Property name="LastModifiedBy" type="App::PropertyString">
+			<String value=""/>
+		</Property>
+		<Property name="LastModifiedDate" type="App::PropertyString">
+			<String value="Thu Nov 20 15:02:45 2014&#xA;"/>
+		</Property>
+		<Property name="License" type="App::PropertyString">
+			<String value="CC-BY 3.0"/>
+		</Property>
+		<Property name="LicenseURL" type="App::PropertyString">
+			<String value="http://creativecommons.org/licenses/by/3.0/"/>
+		</Property>
+		<Property name="Material" type="App::PropertyMap">
+			<Map count="0">
+			</Map>
+		</Property>
+		<Property name="Meta" type="App::PropertyMap">
+			<Map count="0">
+			</Map>
+		</Property>
+		<Property name="Uid" type="App::PropertyUUID">
+			<Uuid value="8847f1c4-bf88-4a1e-923e-3d1f592c9f9a"/>
+		</Property>
+	</Properties>
+	<Objects Count="4">
+		<Object type="Sketcher::SketchObject" name="Sketch" />
+		<Object type="PartDesign::Revolution" name="Revolution" />
+		<Object type="Sketcher::SketchObject" name="Sketch001" />
+		<Object type="Sketcher::SketchObject" name="Sketch002" />
+	</Objects>
+	<ObjectData Count="4">
+		<Object name="Sketch">
+			<Properties Count="7">
+				<Property name="Constraints" type="Sketcher::PropertyConstraintList">
+					<ConstraintList count="23">
+						<Constrain Name="" Type="1" Value="0.000000000000" First="7" FirstPos="2" Second="1" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="1" FirstPos="2" Second="2" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="2" FirstPos="2" Second="3" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="3" FirstPos="2" Second="0" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="2" Value="0.000000000000" First="0" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="2" Value="0.000000000000" First="2" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="3" Value="0.000000000000" First="1" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="3" Value="0.000000000000" First="3" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="13" Value="0.000000000000" First="1" FirstPos="2" Second="-1" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="4" FirstPos="2" Second="5" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="5" FirstPos="2" Second="6" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="2" Value="0.000000000000" First="5" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="3" Value="0.000000000000" First="4" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="3" Value="0.000000000000" First="6" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="0" FirstPos="2" Second="6" SecondPos="2" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="7" FirstPos="1" Second="4" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="5" Value="0.000000000000" First="0" FirstPos="0" Second="7" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="7" Value="30.000000000000" First="2" FirstPos="2" Second="1" SecondPos="2" Third="-2000" ThirdPos="0" LabelDistance="-12.228016853333" LabelPosition="0.804789304733" />
+						<Constrain Name="" Type="7" Value="7.000000000000" First="0" FirstPos="2" Second="4" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="24.830566406250" LabelPosition="15.000000000000" />
+						<Constrain Name="" Type="8" Value="-25.000000000000" First="1" FirstPos="1" Second="1" SecondPos="2" Third="-2000" ThirdPos="0" LabelDistance="16.755645751953" LabelPosition="-2.096332550049" />
+						<Constrain Name="" Type="7" Value="4.000000000000" First="-1" FirstPos="1" Second="2" SecondPos="2" Third="-2000" ThirdPos="0" LabelDistance="0.000000000000" LabelPosition="-12.000000000000" />
+						<Constrain Name="" Type="8" Value="-5.000000000000" First="4" FirstPos="1" Second="4" SecondPos="2" Third="-2000" ThirdPos="0" LabelDistance="17.557762145996" LabelPosition="-13.634132385254" />
+						<Constrain Name="" Type="7" Value="14.000000000000" First="-1" FirstPos="1" Second="0" SecondPos="2" Third="-2000" ThirdPos="0" LabelDistance="7.609760284424" LabelPosition="-20.731689453125" />
+					</ConstraintList>
+				</Property>
+				<Property name="ExternalGeometry" type="App::PropertyLinkSubList">
+					<LinkSubList count="0">
+					</LinkSubList>
+				</Property>
+				<Property name="Geometry" type="Part::PropertyGeometryList">
+					<GeometryList count="8">
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="0"/>
+							<LineSegment StartX="4.000000000000" StartY="25.000000000000" StartZ="0.000000000000" EndX="14.000000000000" EndY="25.000000000000" EndZ="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="0"/>
+							<LineSegment StartX="34.000000000000" StartY="25.000000000000" StartZ="0.000000000000" EndX="34.000000000000" EndY="0.000000000000" EndZ="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="0"/>
+							<LineSegment StartX="34.000000000000" StartY="0.000000000000" StartZ="0.000000000000" EndX="4.000000000000" EndY="0.000000000000" EndZ="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="0"/>
+							<LineSegment StartX="4.000000000000" StartY="0.000000000000" StartZ="0.000000000000" EndX="4.000000000000" EndY="25.000000000000" EndZ="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="0"/>
+							<LineSegment StartX="21.000000000000" StartY="25.000000000000" StartZ="0.000000000000" EndX="21.000000000000" EndY="20.000000000000" EndZ="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="0"/>
+							<LineSegment StartX="21.000000000000" StartY="20.000000000000" StartZ="0.000000000000" EndX="14.000000000000" EndY="20.000000000000" EndZ="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="0"/>
+							<LineSegment StartX="14.000000000000" StartY="20.000000000000" StartZ="0.000000000000" EndX="14.000000000000" EndY="25.000000000000" EndZ="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="0"/>
+							<LineSegment StartX="21.000000000000" StartY="25.000000000000" StartZ="0.000000000000" EndX="34.000000000000" EndY="25.000000000000" EndZ="0.000000000000"/>
+						</Geometry>
+					</GeometryList>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="Sketch"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="0.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.707106781187" Q1="-0.000000000000" Q2="-0.000000000000" Q3="0.707106781187"/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape.brp"/>
+				</Property>
+				<Property name="Support" type="App::PropertyLinkSub">
+					<LinkSub value="" count="0">
+					</LinkSub>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Revolution">
+			<Properties Count="11">
+				<Property name="AddShape" type="Part::PropertyPartShape">
+					<Part file="PartShape1.brp"/>
+				</Property>
+				<Property name="Angle" type="App::PropertyAngle">
+					<Float value="360.000000000000"/>
+				</Property>
+				<Property name="Axis" type="App::PropertyVector">
+					<PropertyVector valueX="0.000000000000" valueY="0.000000000000" valueZ="1.000000000000"/>
+				</Property>
+				<Property name="Base" type="App::PropertyVector">
+					<PropertyVector valueX="0.000000000000" valueY="0.000000000000" valueZ="0.000000000000"/>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="Revolution"/>
+				</Property>
+				<Property name="Midplane" type="App::PropertyBool">
+					<Bool value="false"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="0.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.707106781187" Q1="-0.000000000000" Q2="-0.000000000000" Q3="0.707106781187"/>
+				</Property>
+				<Property name="ReferenceAxis" type="App::PropertyLinkSub">
+					<LinkSub value="Sketch" count="1">
+						<Sub value="V_Axis"/>
+					</LinkSub>
+				</Property>
+				<Property name="Reversed" type="App::PropertyBool">
+					<Bool value="true"/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape2.brp"/>
+				</Property>
+				<Property name="Sketch" type="App::PropertyLink">
+					<Link value="Sketch"/>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Sketch001">
+			<Properties Count="7">
+				<Property name="Constraints" type="Sketcher::PropertyConstraintList">
+					<ConstraintList count="17">
+						<Constrain Name="" Type="1" Value="0.000000000000" First="5" FirstPos="1" Second="3" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="5" FirstPos="2" Second="4" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="6" FirstPos="1" Second="4" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="6" FirstPos="2" Second="2" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="3" Value="0.000000000000" First="6" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="7" FirstPos="1" Second="3" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="7" FirstPos="2" Second="1" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="8" FirstPos="1" Second="1" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="8" FirstPos="2" Second="2" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="8" Value="-2.000000000000" First="4" FirstPos="1" Second="2" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="6.000000000000" LabelPosition="-7.549816131592" />
+						<Constrain Name="" Type="8" Value="-4.000000000000" First="3" FirstPos="1" Second="1" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="-5.805355072021" LabelPosition="-10.582037925720" />
+						<Constrain Name="" Type="7" Value="-34.000000000000" First="-1" FirstPos="1" Second="1" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="8.183331489563" LabelPosition="0.410774230957" />
+						<Constrain Name="" Type="7" Value="-26.000000000000" First="-1" FirstPos="1" Second="2" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="4.225742340088" LabelPosition="1.294542312622" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="9" FirstPos="1" Second="0" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="9" FirstPos="2" Second="-1" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="12" Value="0.000000000000" First="8" FirstPos="0" Second="5" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="9" Value="3.036872898470" First="-1" FirstPos="1" Second="9" SecondPos="2" Third="-2000" ThirdPos="0" LabelDistance="7.833620548248" LabelPosition="0.000000000000" />
+					</ConstraintList>
+				</Property>
+				<Property name="ExternalGeometry" type="App::PropertyLinkSubList">
+					<LinkSubList count="0">
+					</LinkSubList>
+				</Property>
+				<Property name="Geometry" type="Part::PropertyGeometryList">
+					<GeometryList count="10">
+						<Geometry  type="Part::GeomPoint">
+							<Construction value="1"/>
+							<GeomPoint X="-34.370602080613" Y="3.612495846769" Z="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomPoint">
+							<Construction value="1"/>
+							<GeomPoint X="-34.000000000000" Y="-1.816668639966" Z="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomPoint">
+							<Construction value="1"/>
+							<GeomPoint X="-26.000000000000" Y="-2.000000000000" Z="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomPoint">
+							<Construction value="1"/>
+							<GeomPoint X="-33.698485212031" Y="2.183331360034" Z="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomPoint">
+							<Construction value="1"/>
+							<GeomPoint X="-26.000000000000" Y="0.000000000000" Z="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="1"/>
+							<LineSegment StartX="-33.698485212031" StartY="2.183331360034" StartZ="0.000000000000" EndX="-26.000000000000" EndY="0.000000000000" EndZ="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="1"/>
+							<LineSegment StartX="-26.000000000000" StartY="0.000000000000" StartZ="0.000000000000" EndX="-26.000000000000" EndY="-2.000000000000" EndZ="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="1"/>
+							<LineSegment StartX="-33.698485212031" StartY="2.183331360034" StartZ="0.000000000000" EndX="-34.000000000000" EndY="-1.816668639966" EndZ="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="1"/>
+							<LineSegment StartX="-34.000000000000" StartY="-1.816668639966" StartZ="0.000000000000" EndX="-26.000000000000" EndY="-2.000000000000" EndZ="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="1"/>
+							<LineSegment StartX="-34.370602080613" StartY="3.612495846769" StartZ="0.000000000000" EndX="0.000000000000" EndY="0.000000000000" EndZ="0.000000000000"/>
+						</Geometry>
+					</GeometryList>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="Sketch001"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="-0.000000000000" Py="0.000000000000" Pz="25.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="1.000000000000" Q3="0.000000000000"/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape3.brp"/>
+				</Property>
+				<Property name="Support" type="App::PropertyLinkSub">
+					<LinkSub value="Revolution" count="1">
+						<Sub value="Face1"/>
+					</LinkSub>
+				</Property>
+			</Properties>
+		</Object>
+		<Object name="Sketch002">
+			<Properties Count="7">
+				<Property name="Constraints" type="Sketcher::PropertyConstraintList">
+					<ConstraintList count="16">
+						<Constrain Name="" Type="1" Value="0.000000000000" First="2" FirstPos="1" Second="-1" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="5" FirstPos="1" Second="1" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="5" FirstPos="2" Second="0" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="3" Value="0.000000000000" First="5" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="6" FirstPos="1" Second="1" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="6" FirstPos="2" Second="3" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="7" FirstPos="1" Second="0" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="7" FirstPos="2" Second="4" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="8" Value="-4.000000000000" First="1" FirstPos="1" Second="0" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="-5.104651927948" LabelPosition="-8.422384262085" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="8" FirstPos="1" Second="3" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="1" Value="0.000000000000" First="8" FirstPos="2" Second="4" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="3" Value="0.000000000000" First="8" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="8" Value="-2.000000000000" First="3" FirstPos="1" Second="4" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="20.938732147217" LabelPosition="-6.190693378448" />
+						<Constrain Name="" Type="9" Value="3.036872898470" First="-1" FirstPos="1" Second="2" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="3.519873857498" LabelPosition="0.000000000000" />
+						<Constrain Name="" Type="7" Value="-33.850900000000" First="-1" FirstPos="1" Second="0" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="15.443102836609" LabelPosition="-1.460040688515" />
+						<Constrain Name="" Type="7" Value="-31.213400000000" First="-1" FirstPos="1" Second="4" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="4.299184799194" LabelPosition="0.000000000000" />
+					</ConstraintList>
+				</Property>
+				<Property name="ExternalGeometry" type="App::PropertyLinkSubList">
+					<LinkSubList count="0">
+					</LinkSubList>
+				</Property>
+				<Property name="Geometry" type="Part::PropertyGeometryList">
+					<GeometryList count="9">
+						<Geometry  type="Part::GeomPoint">
+							<Construction value="1"/>
+							<GeomPoint X="-33.850900000000" Y="-2.195207000000" Z="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomPoint">
+							<Construction value="1"/>
+							<GeomPoint X="-33.850900000000" Y="1.804793000000" Z="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="1"/>
+							<LineSegment StartX="0.000000000000" StartY="0.000000000000" StartZ="0.000000000000" EndX="-33.775561304476" EndY="3.549954541576" EndZ="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomPoint">
+							<Construction value="1"/>
+							<GeomPoint X="-31.213400000000" Y="1.100972000000" Z="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomPoint">
+							<Construction value="1"/>
+							<GeomPoint X="-31.213400000000" Y="-0.899028000000" Z="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="0"/>
+							<LineSegment StartX="-33.850900000000" StartY="1.804793000000" StartZ="0.000000000000" EndX="-33.850900000000" EndY="-2.195207000000" EndZ="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="0"/>
+							<LineSegment StartX="-33.850900000000" StartY="1.804793000000" StartZ="0.000000000000" EndX="-31.213400000000" EndY="1.100972000000" EndZ="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="0"/>
+							<LineSegment StartX="-33.850900000000" StartY="-2.195207000000" StartZ="0.000000000000" EndX="-31.213400000000" EndY="-0.899028000000" EndZ="0.000000000000"/>
+						</Geometry>
+						<Geometry  type="Part::GeomLineSegment">
+							<Construction value="0"/>
+							<LineSegment StartX="-31.213400000000" StartY="1.100972000000" StartZ="0.000000000000" EndX="-31.213400000000" EndY="-0.899028000000" EndZ="0.000000000000"/>
+						</Geometry>
+					</GeometryList>
+				</Property>
+				<Property name="Label" type="App::PropertyString">
+					<String value="Sketch002"/>
+				</Property>
+				<Property name="Placement" type="App::PropertyPlacement">
+					<PropertyPlacement Px="-0.000000000000" Py="0.000000000000" Pz="25.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="1.000000000000" Q3="0.000000000000"/>
+				</Property>
+				<Property name="Shape" type="Part::PropertyPartShape">
+					<Part file="PartShape4.brp"/>
+				</Property>
+				<Property name="Support" type="App::PropertyLinkSub">
+					<LinkSub value="Revolution" count="1">
+						<Sub value="Face1"/>
+					</LinkSub>
+				</Property>
+			</Properties>
+		</Object>
+	</ObjectData>
+</Document>
